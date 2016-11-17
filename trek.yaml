@@ -1,0 +1,180 @@
+2015-carpenter-structures:
+    doi: 10.1126/science.1261512
+    tags: [kchan, structures]
+    description: |+
+      Structures of up and down trek2.
+
+      Cites [2010-k2p-review=1] for background.
+    pdb:
+      - code: 4XDJ
+        desc: down state
+      - code: 4BW5
+        desc: up state
+      - code: 4XDL
+        desc: Br-fluoxetine complex, down
+      - code: 4XDK
+        desc: norfluoxetine complex, down
+
+
+2010-k2p-review:
+    doi: 10.1152/physrev.00029.2009
+    tags: [kchan]
+    description: |+
+      Nice review of K2P two-pore potassium channels. They talk
+      about the wide variety of regulatory stimuli
+
+2016-kratochvil-soft-knock:
+    doi: 10.1126/science.aag1447
+    descrption: |+
+      They do 2D IR experiments whose spectra are consistent
+      with a hard-knock mechanism. This refutes [2014-kopfer-hard-knock=17].
+
+2014-kopfer-hard-knock:
+    doi: 10.1126/science.1254840
+    tags: [kchan, md-applications]
+    description: |+
+      Introduces a new way of simulating a membrane potential: They
+      stack two membranes on top of one another, creating an "inside"
+      between the two. This doesn't hurt simulation throughput, because
+      you get twice as much protein motion data in the same amount of
+      simulation time (ignore extra factor of log n in system size).
+      This seems to be a refinement on their earlier work in
+      [2011-kutzner-double-membrane=25].
+
+      They hide the startling fact that every time an ion moves through
+      the channel, they have to instantaneously move it back inside.
+      Benoit has argued that this instantaneous jump, which can be
+      a 100 mV difference is rediculous.
+
+      The main point of this paper is that ions translocate through
+      the four sites of potassium channel without any waters between
+      them. This "hard knock" mechanism is in contrast to a "soft knock"
+      mechanism where the ion-ion interactions are softened by interviening
+      waters.
+
+      They re-refine the xray data to show it is consistent with the
+      hard-knock mechanism.
+
+2011-kutzner-double-membrane:
+    doi: doi:10.1016/j.bpj.2011.06.010
+    description: |+
+      They introduce the double-membrane scheme for measuring
+      ion conductance. They do it on a big ol' beta barrel.
+
+
+2000-roux-kcsa-md:
+    doi: 10.1016/S0006-3495(00)76831-7
+    description: |+
+      They run 4ns of MD on KcsA potassium channel.
+
+2016-melcr-membrane-compare:
+    doi: 10.1021/acs.jctc.5b01202
+    description: |+
+        Compare external electric field with ion imbalance.
+
+
+#mcclenaghan2016polymodal:
+#  title={Polymodal activation of the TREK-2 K2P channel produces structurally distinct open states},
+#  author={McClenaghan, Conor and Schewe, Marcus and Aryal, Prafulla and Carpenter, Elisabeth P and Baukrowitz, Thomas and Tucker, Stephen J},
+#  journal={The Journal of general physiology},
+#  volume={147},
+#  number={6},
+#  pages={497--505},
+#  year={2016},
+#  publisher={Rockefeller Univ Press}
+
+#@article{goldstein2001potassium,
+#  title={Potassium leak channels and the KCNK family of two-P-domain subunits},
+#  author={Goldstein, Steve AN and Bockenhauer, Detlef and O'Kelly, Ita and Zilberberg, Noam},
+#  journal={Nature Reviews Neuroscience},
+#  volume={2},
+#  number={3},
+#  pages={175--184},
+#  year={2001},
+#  publisher={Nature Publishing Group}
+#}
+
+#@article{rapedius2012state,
+#  title={State-independent intracellular access of quaternary ammonium blockers to the pore of TREK-1},
+#  author={Rapedius, Markus and Schmidt, Matthias R and Sharma, Chetan and Stansfeld, Phillip J and Sansom, Mark SP and Baukrowitz, Thomas and Tucker, Stephen J},
+#  journal={Channels},
+#  volume={6},
+#  number={6},
+#  pages={473--478},
+#  year={2012},
+#  publisher={Taylor \& Francis}
+#}
+
+#@article{noel2011molecular,
+#  title={Molecular regulations governing TREK and TRAAK channel functions},
+#  author={No{\"e}l, Jacques and Sandoz, Guillaume and Lesage, Florian},
+#  journal={Channels},
+#  volume={5},
+#  number={5},
+#  pages={402--409},
+#  year={2011},
+#  publisher={Taylor \& Francis}
+#}
+
+#@article{lesage2000human,
+#  title={Human TREK2, a 2P domain mechano-sensitive K+ channel with multiple regulations by polyunsaturated fatty acids, lysophospholipids, and Gs, Gi, and Gq protein-coupled receptors},
+#  author={Lesage, Florian and Terrenoire, C{\'e}cile and Romey, Georges and Lazdunski, Michel},
+#  journal={Journal of Biological Chemistry},
+#  volume={275},
+#  number={37},
+#  pages={28398--28405},
+#  year={2000},
+#  publisher={ASBMB}
+#}
+
+#@article{schewe2016non,
+#  title={A non-canonical voltage-sensing mechanism controls gating in K2P K+ channels},
+#  author={Schewe, Marcus and Nematian-Ardestani, Ehsan and Sun, Han and Musinszki, Marianne and Cordeiro, S{\"o}nke and Bucci, Giovanna and de Groot, Bert L and Tucker, Stephen J and Rapedius, Markus and Baukrowitz, Thomas},
+#  journal={Cell},
+#  volume={164},
+#  number={5},
+#  pages={937--949},
+#  year={2016},
+#  publisher={Elsevier}
+#}
+
+#@article{jensen2010principles,
+#  title={Principles of conduction and hydrophobic gating in K+ channels},
+#  author={Jensen, Morten {\O} and Borhani, David W and Lindorff-Larsen, Kresten and Maragakis, Paul and Jogini, Vishwanath and Eastwood, Michael P and Dror, Ron O and Shaw, David E},
+#  journal={Proceedings of the National Academy of Sciences},
+#  volume={107},
+#  number={13},
+#  pages={5833--5838},
+#  year={2010},
+#  publisher={National Acad Sciences}
+#}
+
+#@article{aryal2014hydrophobic,
+#  title={A hydrophobic barrier deep within the inner pore of the TWIK-1 K2P potassium channel},
+#  author={Aryal, Prafulla and Abd-Wahab, Firdaus and Bucci, Giovanna and Sansom, Mark SP and Tucker, Stephen J},
+#  journal={Nature communications},
+#  volume={5},
+#  year={2014},
+#  publisher={Nature Publishing Group}
+#}
+
+#@article{hoshi1991two,
+#  title={Two types of inactivation in Shaker K+ channels: effects of
+#alterations in the carboxy-terminal region},
+#  author={Hoshi, Toshinori and Zagotta, William N and Aldrich, Richard W},
+#  journal={Neuron},
+#  volume={7},
+#  number={4},
+#  pages={547--556},
+#  year={1991},
+#  publisher={Elsevier}
+#}
+
+#@article{ren2016allosteric,
+#  title={Allosteric coupling between proximal c-terminus and selectivity filter is facilitated by the movement of transmembrane segment 4 in trek-2 channel},
+#  author={Ren-Gong Zhuo, Peng Peng and Liu, Xiao-Yan and Yan, Hai-Tao and Xu, Jiang-Ping and Zheng, Jian-Quan and Wei, Xiao-Li and Ma, Xiao-Yun},
+#  journal={Scientific reports},
+#  volume={6},
+#  year={2016},
+#  publisher={Nature Publishing Group}
+#}

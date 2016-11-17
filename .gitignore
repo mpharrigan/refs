@@ -1,0 +1,6 @@
+/.idea/
+*.swp
+
+# Default output files
+/gitbib/
+/gitbib.sqlite

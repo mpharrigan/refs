@@ -1,0 +1,30 @@
+1995-alpha-carbon:
+  doi: 10.1002/pro.5560041017
+  description: Alpha carbon featurization
+  tags: [features]
+
+2011-kinase-review:
+  doi: 10.1016/j.tibs.2010.09.006
+  description: Review of protein kinases. The MSMBuilder paper uses
+    a kinase MD dataset as an example.
+  tags: [review]
+
+2014-shukla-src-kinase:
+  doi: 10.1038/ncomms4397
+  description: MSM analysis of c-Src kinase. The MSMBuilder paper uses
+    the dataset from this paper as an example.
+  tags: [msm-applications]
+
+2009-noe-equilibrium-from-short:
+  doi: 10.1073/pnas.0905466106
+
+2009-berezhkovskii-reactive-flux:
+  doi: 10.1063/1.3139063
+
+2009-metzner-tpt:
+  doi: 10.1137/070699500
+  description: Transition path theory (TPT).
+  tags: [msm-theory, msm-postprocessing]
+
+#2014-fs-peptide:
+#  doi: 10.6084/m9.figshare.1030363.v1

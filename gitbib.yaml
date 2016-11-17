@@ -1,0 +1,9 @@
+version: 1
+license: CC-BY
+outputs:
+  - fn: msm
+    categories: ["msm-theory"]
+  - fn: tools
+    categories: ["forcefield", "software", "algorithm"]
+  - fn: misc
+    categories: ["misc"]

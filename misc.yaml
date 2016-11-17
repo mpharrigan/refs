@@ -1,0 +1,24 @@
+2016-aspuru-mol-feat:
+    arxiv: "1610.02415"
+    tags: [machine-learning, cheminformatics, misc]
+    description: |+
+        The authors train an auto-encoder to provide a vector representation
+        for small molecules. Small molecules are graphs with varying
+        sizes, so they're hard to feed into neural nets (which require
+        fixed-length bitvectors). By fusing together an encoder and decoder
+        (and making the "middle" representation sufficiently small), they
+        learn a vector representation.
+
+        The authors lean heavily on [arxiv:1511.06349=25] to autoencode
+        SMILES strings.
+
+        They use a variational autoencoder (noisy) to avoid "dead zones"
+        in latent space.
+
+        They optomize OLED properties as an example.
+
+"arxiv:1511.06349":
+    arxiv: "1511.06349"
+    tags: [misc]
+    description: |+
+        Advances in autoencoding text, used by [2016-aspuru-mol-feat].

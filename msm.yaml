@@ -1,0 +1,362 @@
+2015-schwantes-ktica:
+  doi: 10.1021/ct5007357
+  description: |+
+    They introduce kernel tICA as an extension to tICA. This is useful to get non-linear solutions to
+    the tICA equation. They claim you can estimate eigenprocesses without building an MSM.
+
+    They briefly introduce the transfer operator. They introduce the variational principle of conformation
+    dynamics per [=25]. They introduce tICA as maximizing the autocorrelation. They say that solutions to tICA
+    are the same as solutions to the variational problem per [=28]. Linearity makes them crude solutions.
+
+    They explain that a natural approach to introduce non-linearity is to expand the original representation
+    into a higher dimensional space and do tICA there. They say this is impractical. The expanded space
+    probably has to be huge. You can perform analysis in the big representation without explicitly representing it
+    by using the "kernel trick". They reproduce an example of the kernel trick from [=39].
+
+    They re-write the tICA problem only in terms of inner products so you can apply the kernel trick. They introduce
+    normalization. They choose a gaussian kernel. They simulate a four-well potential, muller potential, alanine
+    dipeptide, and fip35ww. They need to do MLE cross validation over parameters (kernel width and regularization
+    strength).
+
+    This uses so much RAM! Huge matrices to solve (that scale with the amount of data!!)
+
+  cites:
+    - id: 2014-msm-perspective
+      num: 21
+      why: Data needs analysis
+    - id: 2011-prinz
+      num: 25
+    - id: 2001-schutte-variational
+    - nums: [25, 33]
+      why: Details of transfer operator approach.
+    - id: 2013-noe-variational
+      num: 34
+      why: |+
+        "It was shown that a variational principle can be derived for the eignvalues of the transfer operator."
+        The autocorelation of a function is less than the autocorrelation of the first dynamical eigenfunction
+        of the transfer operator. This is used to argue that you don't have to estimate the operator itself.
+        Just estimate its eigenfunctions
+    - id: 2014-nuske-variational
+      num: 35
+      why: |+
+        "Successfully constructed estimates of the top eigenfunctions in the span of a prespecified library of basis functions."
+        Contrast with this work, which "does not require a predefined basis set"
+    - nums: [22, 28, 36, 37, 38]
+      why: Citing tICA
+    - num: 22
+      id: 2013-schwantes-tica
+    - num: 28
+      id: 2013-noe-tica
+      why: solutions to tica provide estimates of the slowest eigenfunctions of the transfer operator.
+    - num: 36
+      id: "doi:10.1103/PhysRevLett.72.3634"
+    - num: 37
+      id: "doi:10.1162/neco.2006.18.10.2495"
+    - nums: [22, 28]
+      why: tICA has been useful for finding slow timescales in simulations
+    - num: 39
+      id: 1998-scholkopf-kernel-pca
+      why: Used to introduce ther kernel trick.
+    - nums: [39, 40, 41, 42, 43, 44]
+      why: Kernels are used in machine learning.
+    - nums: [45, 46]
+      why: Methods for simplifying kernel method computation.
+
+
+1998-scholkopf-kernel-pca:
+  doi: 10.1162/089976698300017467
+
+
+2001-schutte-variational:
+  doi: 10.1007/978-3-642-56589-2_9
+  pages: {start: 191, end: 223}
+  isbn: 978-3-642-62524-4
+
+
+2016-noe-reversible-tica:
+    arxiv: "1610.06773"
+    cites:
+      - id: "doi:10.1063/1.4934536"
+        num: 46
+        why: Reversibility makes analysis easier
+      - num: 47
+        why: Simulations should be reversible
+      - nums: [22, 23, 28, 46, 48, 49]
+        why: Reversible estimators were developed.
+      - num: 50
+        id: 2013-noe-variational
+      - num: 51
+        id: 2013-noe-tica
+      - num: 52
+        id: 2014-nuske-variational
+      - nums: [50, 51, 52]
+        why: Variational approach (VAC)
+
+    description: |+
+      Provides a better way of "symetrizing" tICA correlation matrix. In tICA, you assume that the dynamics
+      are reversible. When we're learning from finite data, this reversibility isn't respected. Historically,
+      you take your correlation matrix, add its transpose, and divide by two. This is an especially poor
+      approximation if you have many short trajectories. This paper is analogous to the MLE method for
+      symetrizing MSM counts matrices.
+
+"doi:10.1063/1.4934536":
+    doi: 10.1063/1.4934536
+    description: Reversible estimates for MSMs
+
+
+2010-everything-msm-afraid-ask:
+    doi: 10.1016/j.ymeth.2010.06.002
+    description: Review of MSMs intended for "non-experts".
+      Obviously a little dated by now.
+    tags: [msm-theory, review]
+
+2013-milliseconds-folding:
+    doi: 10.1016/j.sbi.2012.11.002
+    description: The state of folding simulations as it was in 2013.
+      Has a nice plot of folding time by year by lab. Discusses the state
+      of MSMs for analysis. Maybe cite this if you're doing folding or want
+      to talk about how timescales are getting longer (and analysis is getting
+      harder). The references include "recommended readings", which is nice.
+    tags: [msm-theory, perspective]
+
+2014-msm-perspective:
+    doi: 10.1063/1.4895044
+    description: |+
+      Very good perspective on the importance of analysis (particularly MSM
+      analysis) for understanding large, modern MD datasets. Money quote:
+      "we believe that quantitative analysis has increasingly become a
+      limiting factor in the application of MD"
+    tags: [msm-theory, perspective]
+
+2015-gmrq:
+    doi: 10.1063/1.4916292
+    tags: [msm-theory, variational]
+
+2014-nuske-variational:
+    doi: 10.1021/ct4009156
+    tags: [msm-theory, variational]
+    description: |+
+      This paper is largely redundant with [2013-noe-variational=65]. They cite it as such:
+      "Following the recently introduced variational principle for metastable stochastic processes,(65)
+      we propose a variational approach to molecular kinetics."
+
+      They perform their variational approach on 2- and 10-alanine in addition to 1D potentials.
+
+      This comes after tICA
+      and cites [2013-schwantes-tica=57] and [2013-noe-tica=58] in the intro, but does
+      nothing further with it. In particular, they don't note that tICA is just another
+      choice of basis set.
+
+      They cite their error paper [2010-msm-error=55].
+
+2014-chodera-msm:
+    doi: 10.1016/j.sbi.2014.04.002
+    description: Overview of MSMs, stressing eigensystem and variational approach.
+      Includes further reading suggestions.
+    tags: [msm-theory, perspective]
+
+2011-prinz:
+    doi: 10.1063/1.3565032
+    description: |+
+      Fantastic in-depth intro to MSMs. Figure 1 in this paper is necessary for understanding
+      eigenvectors. This defines and relates the propogator and transfer operator. This shows
+      how we compute timescales from eigenvectors. This discusess state decomposition error
+      and shows that many states are needed in transition regions.
+    tags: [msm-theory, review]
+
+2014-kohlhoff-exacycle:
+    doi: 10.1038/nchem.1821
+    description: They used Google's Exacycle to do these simulations. You can cite
+      this for more examples of distributed computing. It's ostensibly about GPCRs.
+    tags: [distributed-computing]
+
+2000-fah:
+    doi: 10.1126/science.290.5498.1903
+    description: |+
+      The seminal Folding at Home paper. Cite this whenever you talk about distributed computing
+      or Folding at Home.
+
+      SETI@Home and distributed.net came before this.
+    tags: [distributed-computing]
+
+2008-anton:
+    doi: 10.1145/1364782.1364802
+    description: |+
+      The seminal Anton paper. Cite this when talking about single, long
+      trajectories or special-purpose hardware.
+    tags: [md-sampling]
+
+2010-gpugrid:
+    doi: 10.1021/ci900455r
+    description: GPUGRID intro paper. Cite this alongside FAH. They (probably)
+      did GPU distributed computing before FAH.
+    tags: [distributed-computing]
+
+2009-friedrichs-gpu:
+    doi: 10.1002/jcc.21209
+    description: |+
+      Probably the second instance of using GPUs for molecular dynamics. This became
+      [OpenMM](openmm.org).
+    tags: [md-sampling]
+
+2007-stone-gpu:
+    doi: 10.1002/jcc.20829
+    description: |+
+      (Probably) the first GPU accelerated MD paper. This is for NAMD.
+    tags: [md-sampling]
+
+2008-anderson-gpu:
+    doi: 10.1016/j.jcp.2008.01.047
+    description: |+
+      They claim to be the first GPU accelerated MD engine too! Probably led to HOOMD, although they
+      don't call it that in the paper.
+    tags: [md-sampling]
+
+2009-eastman-gpu:
+    doi: 10.1002/jcc.21413
+    description: |+
+      Optimizing below-cutoff nonbonded calculations on the GPU by tricky
+      memory and parallelization management. This was for OpenMM. This
+      is not PME.
+    cites:
+      - id: 2009-friedrichs-gpu
+      - id: 2007-stone-gpu
+      - id: 2008-anderson-gpu
+    tags: [md-sampling, md-algorithm]
+
+#- 2014-msm-book:
+#    title = {An Introduction to Markov State Models and Their Application
+#        to Long Timescale Molecular Simulation},
+#	volume = {797},
+#	url = {http://publications.mi.fu-berlin.de/1360/},
+#	publisher = {Springer},
+#	author = {Bowman, G. R. and Pande, V. S. and No{\'e}, F.},
+#	editor = {Bowman, G. R. and Pande, V. S. and No{\'e}, F.},
+#	year = {2014}
+#}
+
+2015-ratematrix:
+    doi: 10.1063/1.4926516
+    tags: [msm-theory]
+
+2005-pcca:
+    doi: 10.1016/j.laa.2004.10.026
+    description: |+
+      PCCA group states based on an MSM transition matrix. Specifically,
+      it uses the eigenspectrum to do the lumping. Cite this in the methods
+      section of your paper if you use PCCA or PCCA+.
+    tags: [msm-theory, msm-postprocessing]
+
+2013-schwantes-tica:
+    doi: 10.1021/ct300878a
+    description: The Pande group introduces tica concomitantly with [2013-noe-tica].
+      This paper uses PCA as inspiration and cites signal processing literature.
+    tags: [msm-theory, tica]
+
+2013-noe-tica:
+    doi: 10.1063/1.4811489
+    description: The Noe group introduces tica concomitantly with [2013-schwantes-tica].
+      They use the variational approach from [2013-noe-variational] to derive the tICA
+      equation. They cite a 2001 book about independent component analysis.
+    tags: [msm-theory, tica]
+
+2011-japan-tica:
+    doi: 10.1063/1.3554380
+    description: Probably the first application of tICA to MD.
+    tags: [msm-theory, tica]
+
+2013-noe-variational:
+    doi: 10.1137/110858616
+    tags: [msm-theory, variational]
+    description: |+
+      I think the point of this versus [2014-nuske-variational] is to be "protein agnostic".
+      They allude to proteins, but say this is more general. Their example is a double-well
+      potential.
+
+      They introduce the propogator formalism and stipulate that dynamics can be seperated
+      into "fast" and "slow" components. In contrast to a quantum mechanics Hamiltonian,
+      we don't know the propogator here. You have to infer it from data.
+
+      They claim the error bound derived in [2010-msm-error=34] is not constructive, whereas this method *is*
+      constructive.
+
+      Math section heavily cites [2010-msm-error=34].
+
+      They adapt the Rayleigh variational principle from quantum mechanics, and cite [1989-szabo-ostlund-qm=43].
+      They show that the autocorrelation of the true first dynamical eigenfunction is its
+      eigenvalue, and an estimate of the first dynamical eigenfunction necessarily has a
+      smaller eigenvalue. This sets the variational bound. In terms of names that don't seem
+      to be used now that we're in the future: the Ritz method is for when you have no overlap
+      integrals (e.g. MSMs) and the Roothan-Hall method is for when you do (tICA).
+
+      They put it to the test on a double well potential. They use indicator basis functions to
+      make an MSM; hermite basis functions so they still have no overlap integrals, but smooth
+      functions; and gaussian basis functions (with overlap integrals). This must have
+      come before tICA because there is no mention made of it, even though it would fit in nicely.
+
+2010-msm-error:
+    doi: 10.1137/090764049
+    tags: [msm-theory]
+
+1989-szabo-ostlund-qm:
+    title: "Modern Quantum Chemistry: Introduction to Advanced Electronic Structure Theory"
+    author:
+      - {given: Attila, family: Szabo}
+      - {given: Neil S., family: Ostlund}
+    published-print: !!timestamp 1989-01-01
+    publisher: "Courier Corporation"
+    type: book
+    isbn: 9780486691862
+    tags: [qm]
+    description: |+
+      Cited by [2013-noe-variational] for Rayleigh variational method.
+
+2016-sparsetica:
+    arxiv: "1602.08776"
+    tags: [msm-theory, tica, features]
+    description: |+
+      The authors argue for a definition of the reaction coordinate as the
+      projection on the dominant eigenfunciton of the propogator. Notably,
+      they say that path-based coordinates are no good, because progress
+      is only defined along the path. They argue that the coordinate shouldn't
+      depend on start and end points. They say the projection should
+      be maximally predictive. This means finding the slowest modes.
+      They note [2006-nadler-diffusion-maps=61] and
+      [2011-rohrdanz-diffusion-maps=62] have used this definition.
+
+      They go on to show tICA finds this reaction coordinate. To make tICA
+      more interpretable, they develop an algorithm for introducing a sparsity
+      pattern. It's a pseudo-l0 regularization (made smooth so the optimization works).
+
+      They also use a unique dihedral featurization: instead of taking the sine and cosine
+      to get around periodicity concerns; they project the values on a bunch of evenly
+      spaced von-mises (periodic gaussians) distributions around the unit circle. Each
+      dihedral is expanded into several numbers. It's like a smooth histogramming.
+      This probably won't work as the number of dihedrals gets large (too many features).
+
+
+2006-nadler-diffusion-maps:
+    doi: 10.1016/j.acha.2005.07.004
+    tags: [other-md-analysis]
+
+2011-rohrdanz-diffusion-maps:
+    doi: 10.1063/1.3569857
+    tags: [other-md-analysis]
+
+#@inproceedings{2014-hmm,
+#    Author = {McGibbon, Robert T. and Ramsundar, Bharath and Sultan, Mohammad
+#        M. and Kiss, Gert and Pande, Vijay S.},
+#    Booktitle = {Proceedings of The 31st International Conference on Machine
+#        Learning},
+#    Pages = {1197-1205},
+#    Title = {Understanding Protein Dynamics with L1-Regularized Reversible
+#        Hidden Markov Models},
+#    Year = {2014},
+#}
+
+2012-drid:
+    doi: 10.1021/ct3003145
+    description: A unique featurization that encodes each atom by the
+      first ~3 moments of its distribution of 1/distance to every other atom.
+      Cite this if you use this featurization.
+    tags: [features]

@@ -1,0 +1,98 @@
+2014-lipid14:
+  doi: 10.1021/ct4010307
+  tags: [forcefield]
+
+2007-ipython:
+  doi: 10.1109/MCSE.2007.53
+  tags: [software, python]
+  decription: Cite this to support IPython development.
+
+2016-charmm-gui:
+  doi: 10.1021/acs.jctc.5b00935
+  tags: [software]
+
+2015-gromacs:
+  doi: 10.1016/j.softx.2015.06.001
+  tags: [software]
+
+1992-wham:
+  doi: 10.1002/jcc.540130812
+  tags: [algorithm, md-algorithm]
+  description: Wham reweighting algorithm, perhaps used after umbrella sampling.
+
+2015-mdtraj:
+  doi: 10.1016/j.bpj.2015.08.015
+  tags: [software, python]
+
+1995-stride:
+  tags: [software]
+  description: VMD wants you to cite this for secondary structure prediction
+  doi: 10.1002/prot.340230412
+
+1996-vmd:
+  doi: 10.1016/0263-7855(96)00018-5
+  tags: [software]
+  description: The only game in town for making movies.
+
+2013-openmm:
+  doi: 10.1021/ct300857j
+  tags: [software]
+
+2016-htmd:
+  doi: 10.1021/acs.jctc.6b00049
+  tags: [software, python]
+  description: |+
+    This can make MSMs in addition to being a one-stop shop for running MD.
+
+    It's available under an academic license.
+
+2012-jemma:
+  doi: 10.1021/ct300274u
+  tags: [software]
+  description: |+
+    The previous, java version of EMMA. Look at [2015-pyemma] instead.
+
+2015-pyemma:
+  doi: 10.1021/acs.jctc.5b00743
+  tags: [software, python]
+
+2010-minibatch-kmeans:
+  doi: 10.1145/1772690.1772862
+  tags: [algorithm]
+  description: Clustering algorithm from sklearn admired for its speed.
+
+2009-msmbuilder1:
+  doi: 10.1016/j.ymeth.2009.04.013
+  tags: [software, python]
+  description: |+
+    This introduced the first release of MSMBuilder. You probably shouldn't cite this
+    unless you have a good reason to.
+
+2011-msmbuilder2:
+  doi: 10.1021/ct200463m
+  tags: [software]
+
+2011-sklearn:
+  title: "Scikit-learn: Machine Learning in Python"
+  author:
+    - {family: Pedregosa, given: F.}
+    - {family: Varoquaux, given: G.}
+    - {family: Gramfort, given: A.}
+    - {family: Michel, given: V.}
+    - {family: Thirion, given: B.}
+    - {family: Grisel, given: O.}
+    - {family: Blondel, given: M.}
+    - {family: Prettenhofer, given: P.}
+    - {family: Weiss, given: R.}
+    - {family: Dubourg, given: V.}
+    - {family: Vanderplas, given: J.}
+    - {family: Passos, given: A.}
+    - {family: Cournapeau, given: D.}
+    - {family: Brucher, given: M.}
+    - {family: Perrot, given: M.}
+    - {family: Duchesnay, given: E.}
+  journal: Journal of Machine Learning Research
+  volume: 12
+  page: 2825-2830
+  published-print: !!timestamp 2011-01-01
+  tags: [software, python]
