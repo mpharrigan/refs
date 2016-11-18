@@ -1,3 +1,47 @@
+2016-husic-msms:
+  doi: 10.1063/1.4967809
+  description: |+
+    The authors perform GMRQ cross validation on the twelve [2011-larsen-folding] folding trajectories to
+    give guidelines for MSM construction.
+
+    They present a flowchart for MSM construction that shows the three paths towards clustering: from
+    an rmsd distance metric, from features, or from tICA learned on features.
+
+    They introduce GMRQ cross validation in the tradition of [=44].
+
+    They present results but stress that you have to do your own cross validataion to be sure. Some conclusions
+    include: 1. tICA and PCA are better than direct clustering of features 2. when using tica, you can use kcenters,
+    kmeans, or minibatch kmeans to the same effect
+
+    On one protein (2p6j) they look at all different features and show that they vary a lot. It's unfortunate that
+    this was only done on one protein.
+
+  cites:
+    - num: 41
+      id: 2013-noe-variational
+      why: Variational principle
+    - num: 42
+      why: Variational principle
+      id: 2014-nuske-variational
+    - num: 5
+      id: 2008-anton
+      why: Generated the trajectories.
+    - num: 18
+      id: 2011-larsen-folding
+      why: Re-analyzed these simulations. "Diversity of proteins analyzed"
+    - num: 44
+      id: 2015-mcgibbon-gmrq
+      why: Cross-validation
+
+
+2011-larsen-folding:
+  doi: 10.1126/science.1208351
+  description: |+
+    The authors simulated folding trajectories for 12 small proteins. The simulations were
+    between 100 us and 1 ms. This paper was a considerable advance for the field, and more
+    or less closed the book on molecular dynamics for folding.
+
+
 2015-schwantes-ktica:
   doi: 10.1021/ct5007357
   description: |+
@@ -85,10 +129,20 @@
         why: Reversible estimators were developed.
       - num: 50
         id: 2013-noe-variational
+        note: |+
+          In remark 2.7, they say a "variational principle of conformation dynamics"
+          can be formulated. There's not VAC. The title has "variational approach"
+          but not to conformation.
       - num: 51
         id: 2013-noe-tica
+        note: |+
+          In this paper, they call it the "variational principle of conformation dynamics."
+          There's no mention of variational approach or VAC.
       - num: 52
         id: 2014-nuske-variational
+        note: |+
+          In this paper, they say the old one was "variational principle for metastable stochastic processes"
+          and they develop a "variational approach to molecular kinetics"
       - nums: [50, 51, 52]
         why: Variational approach (VAC)
 
@@ -128,7 +182,7 @@
       limiting factor in the application of MD"
     tags: [msm-theory, perspective]
 
-2015-gmrq:
+2015-mcgibbon-gmrq:
     doi: 10.1063/1.4916292
     tags: [msm-theory, variational]
 

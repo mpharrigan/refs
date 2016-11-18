@@ -7,3 +7,5 @@ outputs:
     categories: ["forcefield", "software", "algorithm"]
   - fn: misc
     categories: ["misc"]
+  - fn: 2016-husic-msms
+    tree: 2016-husic-msms
