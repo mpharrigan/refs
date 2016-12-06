@@ -1,11 +1,25 @@
 version: 1
 license: CC-BY
+
+title: Matthew Harrigan's gitbib entries
+description: |+
+  This has a bunch of stuff for doing gitbib la dee da.
+
 outputs:
   - fn: msm
     categories: ["msm-theory"]
+    description: |+
+      Articles related to Markov state model (MSM) construction and
+      theory.
+
   - fn: tools
     categories: ["forcefield", "software", "algorithm"]
+    description: |+
+      Various tools (software or otherwise) that you might use
+      in your research, and should cite in papers.
+
   - fn: misc
     categories: ["misc"]
+
   - fn: 2016-husic-msms
     tree: 2016-husic-msms
