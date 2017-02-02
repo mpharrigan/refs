@@ -1,5 +1,6 @@
 2015-amino-acid-basis:
   doi: 10.1021/acs.jctc.5b00498
+  tags: [msm-theory]
   description: |+
     Authors simulate individual (capped) amino acids for 1us / each and construct (mini-)MSMs on each one.
     They use the outerproduct of these mini-MSMs to serve as a basis set for peptides. MiniMSMs are on
@@ -11,6 +12,7 @@
 
 2016-husic-msms:
   doi: 10.1063/1.4967809
+  tags: [msm-theory]
   description: |+
     The authors perform GMRQ cross validation on the twelve [2011-larsen-folding] folding trajectories to
     give guidelines for MSM construction.
@@ -55,6 +57,7 @@
 
 2015-schwantes-ktica:
   doi: 10.1021/ct5007357
+  tags: [msm-theory]
   description: |+
     They introduce kernel tICA as an extension to tICA. This is useful to get non-linear solutions to
     the tICA equation. They claim you can estimate eigenprocesses without building an MSM.
@@ -123,12 +126,14 @@
 
 
 2001-schutte-variational:
+  tags: [msm-theory]
   doi: 10.1007/978-3-642-56589-2_9
   pages: {start: 191, end: 223}
   isbn: 978-3-642-62524-4
 
 
 2016-noe-reversible-tica:
+    tags: [msm-theory]
     arxiv: "1610.06773"
     cites:
       - id: "doi:10.1063/1.4934536"
