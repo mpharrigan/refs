@@ -1,3 +1,14 @@
+2015-amino-acid-basis:
+  doi: 10.1021/acs.jctc.5b00498
+  description: |+
+    Authors simulate individual (capped) amino acids for 1us / each and construct (mini-)MSMs on each one.
+    They use the outerproduct of these mini-MSMs to serve as a basis set for peptides. MiniMSMs are on
+    a grid in phi-psi angles. Since each miniMSM has approx 3 modes, the full basis would be 3^(N), which
+    is way too big! They call the second and third modes "excited states" and use a basis set that contains
+    a singly-exited residue. E.g. [11111] + [ [21111, 121111, 112111, 111211, ...] ].
+
+    Alanine preceded by a proline is taken as a special case.
+
 2016-husic-msms:
   doi: 10.1063/1.4967809
   description: |+
