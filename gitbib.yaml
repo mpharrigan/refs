@@ -3,7 +3,7 @@ license: CC-BY
 
 title: Matthew Harrigan's gitbib entries
 description: |+
-  This has a bunch of stuff for doing gitbib la dee da.
+  Changing descrption to trigger build via webhook
 
 outputs:
   - fn: msm
