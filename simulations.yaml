@@ -1,0 +1,15 @@
+2010-shaw-fip35-bpti:
+  tags: [simulations]
+  doi: 10.1126/science.1187409
+  description: |+
+    Simulation of fip35 ww domain: 2x 100 us. Note this was at 400K so unfolding could be observed.
+
+    Simulation of bpti: 1ms. Note this was done with tip4p for reasons.
+
+2011-larsen-folding:
+  tags: [simulations]
+  doi: 10.1126/science.1208351
+  description: |+
+    The authors simulated folding trajectories for 12 small proteins. The simulations were
+    between 100 us and 1 ms. This paper was a considerable advance for the field, and more
+    or less closed the book on molecular dynamics for folding.

@@ -13,7 +13,7 @@ outputs:
       theory.
 
   - fn: tools
-    categories: ["forcefield", "software", "algorithm"]
+    categories: ["forcefield", "software", "algorithm", "simulations"]
     description: |+
       Various tools (software or otherwise) that you might use
       in your research, and should cite in papers.

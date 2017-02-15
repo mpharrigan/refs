@@ -47,12 +47,6 @@
       why: Cross-validation
 
 
-2011-larsen-folding:
-  doi: 10.1126/science.1208351
-  description: |+
-    The authors simulated folding trajectories for 12 small proteins. The simulations were
-    between 100 us and 1 ms. This paper was a considerable advance for the field, and more
-    or less closed the book on molecular dynamics for folding.
 
 
 2015-schwantes-ktica:
