@@ -424,3 +424,12 @@
       first ~3 moments of its distribution of 1/distance to every other atom.
       Cite this if you use this featurization.
     tags: [features]
+
+2004-swope-msm:
+  tags: [msm-theory]
+  doi: 10.1021/jp037421y
+  description: |+
+    The first MSM paper. Gets pretty much everything right. Except they're convinced that you need
+    to do state exploration via NVT or NPT and then calculate transitions by launching bespoke
+    NVE simulations. Obviously, we just run big NPT runs and use that for both state space
+    exploration and counting transitions.
