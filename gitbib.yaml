@@ -23,3 +23,7 @@ outputs:
 
   - fn: 2016-husic-msms
     tree: 2016-husic-msms
+
+  - fn: nav
+    categories: ["nav"]
+    description: Voltage gated sodium channel

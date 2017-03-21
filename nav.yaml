@@ -1,0 +1,14 @@
+2017-open-navms:
+  doi: 10.1038/ncomms14205
+  tags: [nav]
+  pdb: [5hvx]
+  description: |+
+    Open NavMs voltage gated sodium channel with all the parts (VSD + pore + CTD)
+
+2017-euk-navps:
+  tags: [nav]
+  doi: 10.1126/science.aal4326
+  description: |+
+    First eukaryotic structure. CryoEM of cockroach NaV. Might not be a NaV.
+    No elecrophysiology can be performed. Was originally called PaFPC1, they renamed
+    it NaVPaS
