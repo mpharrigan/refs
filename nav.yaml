@@ -5,7 +5,7 @@
   description: |+
     Open NavMs voltage gated sodium channel with all the parts (VSD + pore + CTD)
 
-2017-euk-navps:
+2017-euk-navpas:
   tags: [nav]
   doi: 10.1126/science.aal4326
   description: |+
