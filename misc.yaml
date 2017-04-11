@@ -1,3 +1,9 @@
+2016-guttenberg-deep-slow:
+  arxiv: "1609.00116"
+  tags: [machine-learning, deep-learning]
+  description: |+
+    Somehow uses deep networks to extract slow modes from dynamical signals.
+
 2016-aspuru-mol-feat:
     arxiv: "1610.02415"
     tags: [machine-learning, cheminformatics, misc]
