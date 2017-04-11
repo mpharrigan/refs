@@ -1,3 +1,9 @@
+2017-deep-lift:
+  arxiv: "1704.02685"
+  tags: [machine-learning, deep-learning]
+  description: |+
+    Decompose ouput predictions
+
 2016-guttenberg-deep-slow:
   arxiv: "1609.00116"
   tags: [machine-learning, deep-learning]
