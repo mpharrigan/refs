@@ -4,6 +4,11 @@
   description: |+
     Scale tIC coordinates by a function of the timescale.
 
+2015-gaussian-msms:
+  doi: 10.1063/1.4913214
+  tags: [msm-theory]
+
+
 2015-amino-acid-basis:
   doi: 10.1021/acs.jctc.5b00498
   tags: [msm-theory]
