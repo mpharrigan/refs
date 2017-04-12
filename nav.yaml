@@ -12,3 +12,23 @@
     First eukaryotic structure. CryoEM of cockroach NaV. Might not be a NaV.
     No elecrophysiology can be performed. Was originally called PaFPC1, they renamed
     it NaVPaS
+
+2016-btx-frogs:
+  tags: [nav]
+  doi: 10.1093/molbev/msv350
+  description: |+
+    Evolutionary analysis and docking study on NaV 1.4 in frogs immune to toxins
+
+2016-btx-insect:
+  tags: [nav]
+  doi: 10.1074/jbc.M116.742056
+  description: |+
+    Homology model to open cockroach channel and docking study
+
+2012-vsd-mechanism:
+  tags: [nav]
+  doi: 10.1073/pnas.1118434109
+  description: |+
+    Homology modelling to resting, intermediate and activated states of voltage sensing domains. Disulfide
+    locking experiments. Cites [doi:10.1073/pnas.0806486105] and [doi:10.1073/pnas.0912307106]
+    and [doi:10.1073/pnas.1116449108]
