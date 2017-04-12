@@ -55,6 +55,16 @@
       They re-refine the xray data to show it is consistent with the
       hard-knock mechanism.
 
+2012-roux-efield:
+  doi: 10.1016/j.bbamem.2011.09.030
+  description: |+
+    Constant electric field
+
+2008-roux-efield:
+  doi: 10.1529/biophysj.108.136499
+  description: |+
+    Constant electric field
+
 2011-kutzner-double-membrane:
     doi: doi:10.1016/j.bpj.2011.06.010
     description: |+
