@@ -1,3 +1,22 @@
+2016-msm-cryptic-binding:
+  doi: 10.1038/ncomms12965
+  tags: [misc]
+  description: |+
+    They generated ensembles using MD, then docked to those ensembles, then re-weighted the docking scores
+    based on the MSM. This gave a huge improvement in the predictive power of docking to predict affinity/potency.
+    It turned an inverse relationship (when docking using xtal structures) into a highly correlated trend.
+
+    They confirmed their hypothesis about the protein flexibility by using a mass spec. method.
+
+    They identified a loop movement important in the anti-antibacterial activity of the enzyme that was different
+    from one previously proposed/suspected.
+
+    They proposed mutants that would stabilize their proposed loop, and tested them experimentally.
+
+    The power of using the MSM to re-weight other analyses is also very encouraging
+    to see yet again. Also note that they did all this with what looks like a pretty low amount of aggregate
+    sampling (few microseconds per mutant).
+
 2016-mbar-volumes:
   doi: 10.1103/PhysRevE.94.031301
   tags: [misc]
