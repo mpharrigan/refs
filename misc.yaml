@@ -1,3 +1,9 @@
+2016-mbar-volumes:
+  doi: 10.1103/PhysRevE.94.031301
+  tags: [misc]
+  description: |+
+    Use multistate benett acceptance (MBAR) to find volumes in high dimensions.
+
 2016-neural-computers:
   doi: 10.1038/nature20101
   tags: [machine-learning, deep-learning]
