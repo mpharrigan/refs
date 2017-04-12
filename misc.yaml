@@ -1,3 +1,16 @@
+2016-neural-computers:
+  doi: 10.1038/nature20101
+  tags: [machine-learning, deep-learning]
+  description: |+
+    Augment deep networks with an external memory (RAM) matrix.
+
+    Bart says: "TL;DR: This work follows a line of research that teaches deep-nets
+    to learn algorithmic tasks (addition, sorting, multiplication, key-value look-up).
+    This paper goes a bit further and teaches their network to do shortest-path finding
+    in graphs and demonstrates on maps of the London underground. Cool demo with nice results,
+    but the hype-machine has blown it out of proportion
+    (check out the FT article for a breathless take claiming thinking computers are one step closer...)"
+
 2017-deep-lift:
   arxiv: "1704.02685"
   tags: [machine-learning, deep-learning]
