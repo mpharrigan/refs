@@ -1,3 +1,9 @@
+2016-commute-maps:
+  doi: 10.1021/acs.jctc.6b00762
+  tags: [msm-theory]
+  description: |+
+    Scale tIC coordinates by a function of the timescale.
+
 2015-amino-acid-basis:
   doi: 10.1021/acs.jctc.5b00498
   tags: [msm-theory]
