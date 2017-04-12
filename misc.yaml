@@ -1,7 +1,41 @@
+2014-ganguli-saddle-points:
+  arxiv: "1406.2572"
+  tags: [misc, machine-learning, deep-learning]
+  description: |+
+    Labmate summarizes:
+
+    This one is a really cool paper.  One of those "we've all been doing it wrong" papers that could have a big
+    impact.  Their main conclusions are
+
+    1. When optimizing functions in high dimensional spaces, saddle points are a much bigger problem than local
+    minima.  There are far more of them, and the few local minima that do exist mostly have values only slightly
+    worse than the global minimum.
+
+    2. Standard optimization methods deal really badly with saddle points (and hence work really badly in high
+    dimensional spaces).  First order methods like gradient descent start taking tiny steps, so they take a really
+    long time to escape.  Quasi-Newton methods are even worse.  They just converge to the saddle point and never escape.
+
+    3. They describe a new approach that doesn't have these problems and goes right through saddle points without
+    slowing down.
+
+    They do all this in the context of neural networks, but it likely applies just as well to other high dimensional
+    optimization problems.  Proteins, for example.  When you use an algorithm like L-BFGS for energy minimization,
+    it's probably converging to a saddle point, not a local minimum.  It could be really interesting to try their
+    method.  Could we fold a protein to the native state just by a straightforward energy minimization?
+
+    Force field optimization is another case whether this approach could be really useful.
+
+    They also show that at a saddle point, there's a strong monotonic relationship between the error and the
+    fraction of negative eigenvalues of the Hessian.  Potentially that could be used as a way to measure how
+    far you are from the global minimum.  For example, when optimizing force field parameters, it would tell you
+    whether your parameters are close to optimal, or whether there's still a lot of room to improve them further.
+
 2016-msm-cryptic-binding:
   doi: 10.1038/ncomms12965
   tags: [misc]
   description: |+
+    Labmate summarizes:
+
     They generated ensembles using MD, then docked to those ensembles, then re-weighted the docking scores
     based on the MSM. This gave a huge improvement in the predictive power of docking to predict affinity/potency.
     It turned an inverse relationship (when docking using xtal structures) into a highly correlated trend.
