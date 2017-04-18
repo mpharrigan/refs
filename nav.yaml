@@ -41,3 +41,9 @@
     Homology modelling to resting, intermediate and activated states of voltage sensing domains. Disulfide
     locking experiments. Cites [doi:10.1073/pnas.0806486105] and [doi:10.1073/pnas.0912307106]
     and [doi:10.1073/pnas.1116449108]
+
+2016-cav-structure:
+  doi: 10.1038/nature19321
+  tags: [nav, cav]
+  description: Cav structure
+  pdb: [5gjv]
