@@ -1,0 +1,45 @@
+2009-theobald-rmsd:
+  doi: "10.1002/jcc.21439"
+  description: |+
+    This one computes the optimal rotation in addition to (specifically: after) just
+    computing the minimal RMSD value. It uses [=14] for finding the optimal RMSD (ie
+    leading eigenvalue of key matrix).
+  cites:
+    - id: 2005-theobald-rmsd
+      num: 14
+
+2005-theobald-rmsd:
+  doi: "10.1107/S0108767305015266"
+  license: CC-BY-2.0
+  description: |+
+    Instead of doing matrix diagonalization or inversion, use netwon-raphson root-finding
+    on a characteristic polynomial.
+
+    Mainly builds off of [1987-horn-rmsd=5].
+
+
+2004-dill-rmsd:
+  doi: "10.1002/jcc.20110"
+  description: |+
+    Similar to [2005-theobald-rmsd], builds off of [1987-horn-rmsd=5]. Proves identity
+    with normal 3x3 methods.
+
+    Derives the derivative of RMSD wrt coordinates, although "it is well known [=13]"
+
+1978-kabsch-rmsd:
+  description: |+
+    [2005-theobald-rmsd] says this suffers from rotoinversions because it uses
+    3x3 rotations instead of 4x4 quaternions.
+
+1988-diamond-rmsd:
+  description: |+
+    [2005-theobald-rmsd] cites for quaternion RMSD
+
+1987-horn-rmsd:
+  doi: "10.1364/JOSAA.4.000629"
+  description: |+
+    [2005-theobald-rmsd] cites for quaternion RMSD
+
+1989-kearsley-rmsd:
+  description: |+
+    [2005-theobald-rmsd] cites for quaternion RMSD
