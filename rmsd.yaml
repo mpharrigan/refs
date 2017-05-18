@@ -27,6 +27,7 @@
     Derives the derivative of RMSD wrt coordinates, although "it is well known [=13]"
 
 1978-kabsch-rmsd:
+  doi: "10.1107/S0567739476001873"
   description: |+
     [2005-theobald-rmsd] says this suffers from rotoinversions because it uses
     3x3 rotations instead of 4x4 quaternions.

@@ -6,24 +6,33 @@ description: |+
   Changing descrption to trigger build via webhook
 
 outputs:
-  - fn: msm
-    categories: ["msm-theory"]
-    description: |+
-      Articles related to Markov state model (MSM) construction and
-      theory.
 
-  - fn: tools
+  - fn: tools-category
     categories: ["forcefield", "software", "algorithm", "simulations"]
     description: |+
       Various tools (software or otherwise) that you might use
       in your research, and should cite in papers.
 
-  - fn: misc
-    categories: ["misc"]
 
   - fn: 2016-husic-msms
     tree: 2016-husic-msms
 
+  - fn: all
+    all: True
+
+  - fn: misc
+    input-fn: misc.yaml
+  - fn: msm
+    input-fn: msm.yaml
+  - fn: msmbuilder
+    input-fn: msmbuilder.yaml
   - fn: nav
-    categories: ["nav"]
-    description: Voltage gated sodium channel
+    input-fn: nav.yaml
+  - fn: rmsd
+    input-fn: rmsd.yaml
+  - fn: simulations
+    input-fn: simulations.yaml
+  - fn: tools
+    input-fn: tools.yaml
+  - fn: trek
+    input-fn: trek.yaml
