@@ -44,17 +44,17 @@
 
 2016-cav-structure:
   doi: 10.1038/nature19321
-  tags: [nav, cav]
+  tags: [cav]
   description: Cav structure. What's the diference between [2015-cav-structure]
   pdb: [5gjv, 5gjw]
 
 2015-cav-structure:
   doi: 10.1126/science.aad2395
-  tags: [nav, cav]
+  tags: [cav]
   description: also a cav structure.
   pdb: [3jbr]
 
 2017-herg-structure:
   doi: 10.1016/j.cell.2017.03.048
-  tags: [nav,kv]
+  tags: [kv]
   pdb: [5va1, 5va2, 5va3]
