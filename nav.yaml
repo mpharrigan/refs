@@ -15,8 +15,9 @@
     Open NavMs voltage gated sodium channel with all the parts (VSD + pore + CTD)
 
 2017-euk-navpas:
-  tags: [nav]
+  tags: [nav, structure]
   doi: 10.1126/science.aal4326
+  pdb: [5x0m]
   description: |+
     First eukaryotic structure. CryoEM of cockroach NaV. Might not be a NaV.
     No elecrophysiology can be performed. Was originally called PaFPC1, they renamed
@@ -41,6 +42,67 @@
     Homology modelling to resting, intermediate and activated states of voltage sensing domains. Disulfide
     locking experiments. Cites [doi:10.1073/pnas.0806486105] and [doi:10.1073/pnas.0912307106]
     and [doi:10.1073/pnas.1116449108]
+
+
+2011-closed-navab:
+  tags: [nav, structure]
+  doi: 10.1038/nature10238
+  pdb: [3rvy, 3rvz, 3rw0]
+  description: |+
+    Pore and Voltage Sensing domains in a closed state. First NaV Structure. Prokaryote NavAb
+
+2012-closed-asym-navab:
+  tags: [nav, structure]
+  doi: 10.1038/nature11077
+  pdb: [4ekw]
+  description: |+
+    Pore and Voltage Sensing domains in an asymmetric closed state. NavAb.
+
+2012-partially-open-pore-navms:
+  tags: [nav, structure]
+  doi: 10.1038/ncomms2077
+  pdb: [4f4l]
+  description: |+
+    Pore only partially open state. This may or may not collapse to the
+    closed state in molecular dynamics.
+
+2012-closed-navrh:
+  tags: [nav, structure]
+  doi: 10.1038/nature11054
+  pdb: [4dxw]
+  description: |+
+    Pore and Voltage Sensing domains in a closed state.
+
+2013-open-pore-navms:
+  tags: [nav, structure]
+  doi: 10.1038/ncomms3465
+  pdb: [3zjz]
+  description: |+
+    Pore only open conformation. Supposed to have the CTD but
+    rcsb pdb doesn't show it. Proposes CTD role in gating.
+
+2017-navab:
+  tags: [nav, structure]
+  doi: 10.1073/pnas.1700761114
+  pdb: [5vb8, 5vb2]
+  description: |+
+    Open PD/VSD (5vb8) and closed PD/VSD/CTD (5vb2)
+
+2014-closed-navae1p:
+  tags: [nav, structure]
+  doi: 10.1016/j.jmb.2013.10.010
+  pdb: [4lto, 4ltp, 4ltq, 4ltr]
+  description: |+
+    Closed Pore and CTD in pore-only NavAe. Correlates CTD neck unfolding with activation.
+
+2017-open-full-navms:
+  tags: [nav, structure]
+  doi: 10.1038/ncomms14205
+  pdb: [5hvx, 5hvd]
+  description: |+
+    First full-length, open conformation. [2017-navab] has a full-length closed.
+    This is NavMs and that is NavAb.
+
 
 2016-cav-structure:
   doi: 10.1038/nature19321
