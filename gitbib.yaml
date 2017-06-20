@@ -3,36 +3,31 @@ license: CC-BY
 
 title: Matthew Harrigan's gitbib entries
 description: |+
-  Changing descrption to trigger build via webhook
+  References
 
 outputs:
-
-  - fn: tools-category
-    categories: ["forcefield", "software", "algorithm", "simulations"]
-    description: |+
-      Various tools (software or otherwise) that you might use
-      in your research, and should cite in papers.
-
-
-  - fn: 2016-husic-msms
-    tree: 2016-husic-msms
-
-  - fn: all
-    all: True
-
   - fn: misc
     input-fn: misc.yaml
+    description: |+
+      "Viral" papers that I see on twitter, mailing lists
   - fn: msm
     input-fn: msm.yaml
+    description: Markov state modeling
   - fn: msmbuilder
     input-fn: msmbuilder.yaml
+    description: Citations used for MSMBuilder paper
   - fn: nav
     input-fn: nav.yaml
+    description: Voltage gated sodium channel papers (or related)
   - fn: rmsd
     input-fn: rmsd.yaml
+    description: Storied history of RMSD in molecular dynamics
   - fn: simulations
     input-fn: simulations.yaml
+    description: Notable molecular dynamics simulations
   - fn: tools
     input-fn: tools.yaml
+    description: Software tools that deserve citations
   - fn: trek
     input-fn: trek.yaml
+    description: Incomplete list of references used for Trek paper
