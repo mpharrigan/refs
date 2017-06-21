@@ -1,0 +1,221 @@
+grant2010large:
+  author: ['Grant, Barry J', 'Gorfe, Alemayehu A', 'McCammon, J Andrew']
+  journal: Curr. Opin. Struc. Bio.
+  pages: 142--147
+  title: 'Large conformational changes in proteins: signaling and other functions'
+  volume: '20'
+  year: '2010'
+
+  description: |+
+    Cited in [2015-wetmsm] intro.
+
+taylor2011protein:
+  author: ['Taylor, Susan S', 'Kornev, Alexandr P']
+  journal: Trends Biochem. Sci.
+  pages: 65--77
+  title: 'Protein kinases: evolution of dynamic regulatory proteins'
+  volume: '36'
+  year: '2011'
+
+  description: |+
+    Cited in [2015-wetmsm] intro.
+
+henzler2007dynamic:
+  author: ['Henzler-Wildman, Katherine', 'Kern, Dorothee']
+  journal: Nature
+  pages: 964--972
+  title: Dynamic personalities of proteins
+  volume: '450'
+  year: '2007'
+
+  description: |+
+    Cited in [2015-wetmsm] intro.
+
+2013-tip3p-fb:
+  doi: 10.1021/jp403802c
+
+  description: |+
+    Cited in [2015-wetmsm] intro as example of better water models. Optimizes
+    tip3p and tip4p parameters.
+
+2014-msm-book:
+  type: book
+  title: An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation
+  volume: 797
+  url: http://publications.mi.fu-berlin.de/1360/
+  publisher: Springer
+  author: ['Bowman, G. R.', 'Pande, V. S.', "No{\\'e}, F."]
+  year: 2014
+
+lane_markov_2011:
+  doi: 10.1021/ja207470h
+  description: |+
+    Cited by [2015-wetmsm] as successful MSM application for folding
+
+jayachandran_using_2006:
+  doi: 10.1063/1.2186317
+  description: |+
+    Cited by [2015-wetmsm] as successful MSM application for folding
+
+voelz_slow_2012:
+  doi: 10.1021/ja302528z
+  description: |+
+    Cited by [2015-wetmsm] as successful MSM application for folding
+
+baiz_molecular_2014:
+  doi: 10.1016/j.bpj.2014.02.008
+  description: |+
+    Cited by [2015-wetmsm] as successful MSM application for folding
+
+sadiq_kinetic_2012:
+  doi: 10.1073/pnas.1210983109
+  description: |+
+    Cited by [2015-wetmsm] as successful MSM application for kinase activation
+
+buch_complete_2011:
+  doi: 10.1073/pnas.1103547108
+  description: |+
+    Cited by [2015-wetmsm] as successful MSM application for protein-ligand binding
+
+    Cited by [2015-wetmsm] where solvent is treated by grid of voxels.
+
+perkett_using_2014:
+  doi: 10.1063/1.4878494
+  description: |+
+    Cited by [2015-wetmsm] as successful MSM application for self-assembly
+
+lapidus2014complex:
+  author: ['Lapidus, Lisa J', 'Acharya, Srabasti', 'Schwantes, Christian R', 'Wu,
+      Ling', 'Shukla, Diwakar', 'King, Michael', 'DeCamp, Stephen J', 'Pande, Vijay
+      S']
+  journal: Biophys. J.
+  pages: 947--955
+  title: Complex pathways in folding of protein G explored by simulation and experiment
+  volume: '107'
+  year: '2014'
+
+  description: |+
+    Cited by [2015-wetmsm] where they discard water.
+
+chandler_hydrophobicity_2002:
+  doi: 10.1038/417491a
+  description: |+
+    Cited by [2015-wetmsm] where water is important for hydrophobic collapse
+
+sorin_nanotube_2006:
+  doi: 10.1021/ja060917j
+  description: |+
+    Cited by [2015-wetmsm] where water is important for protein stability
+
+young_motifs_2007:
+  doi: 10.1073/pnas.0610202104
+  description: |+
+    Cited by [2015-wetmsm] where water is important for protein-ligand binding
+
+faure_lipids_2014:
+  doi: 10.1074/jbc.M113.537134
+  description: |+
+    Cited by [2015-wetmsm] where lipids are important for modulation of ion channel function
+
+sun_antifreeze_2014:
+  doi: 10.1126/science.1247407
+  description: |+
+    Cited by [2015-wetmsm] where solvent is important
+
+krone_role_2008:
+  doi: 10.1021/ja8017303
+  description: |+
+    Cited by [2015-wetmsm] where solvent is important for aggregation
+
+wei_effects_2006:
+  doi: 10.1529/biophysj.105.079186
+  description: |+
+    Cited by [2015-wetmsm] where solvent is important for aggregation
+
+fabritiis_insights_2008:
+  doi: 10.1002/prot.22027
+  description: |+
+    Cited by [2015-wetmsm] where solvent is treated by grid of voxels.
+
+zhou_hydrophobic_2004:
+  doi: 10.1126/science.1101176
+  description: |+
+    Cited by [2015-wetmsm] because model system for hydrophobic collapse
+
+1996-bphc-structure:
+  doi: 10.1006/jmbi.1996.0060
+  pdb: [1dhy, 1gdg]
+
+gu_building_2013:
+  doi: 10.1186/1471-2105-14-S2-S8
+  description: |+
+    [2015-wetmsm] method based off of this.
+
+jorgensen1983comparison:
+  author: ['Jorgensen, W.L.', 'Chandrasekhar, J.', 'Madura, J.D.', 'Impey, R.W.',
+    'Klein, M.L.']
+  journal: J. Chem. Phys.
+  pages: '926'
+  title: Comparison of simple potential functions for simulating liquid water
+  volume: '79'
+  year: '1983'
+
+  description: |+
+    [2015-wetmsm] cited this for methods: tip3p.
+
+2010-lindorff2010improved:
+  author: ['Lindorff-Larsen, Kresten', 'Piana, Stefano', 'Palmo, Kim', 'Maragakis,
+      Paul', 'Klepeis, John L', 'Dror, Ron O', 'Shaw, David E']
+  journal: 'Proteins: Struct., Funct., and Bioinf.'
+  pages: 1950--1958
+  title: Improved side-chain torsion potentials for the Amber ff99SB protein force
+    field
+  volume: '78'
+  year: '2010'
+
+  description: |+
+    [2015-wetmsm] cited this for methods: amber99sb-ildn
+
+izrailev1999steered:
+  author: ['Izrailev, Sergei', 'Stepaniants, Sergey', 'Isralewitz, Barry', 'Kosztin,
+      Dorina', 'Lu, Hui', 'Molnar, Ferenc', 'Wriggers, Willy', 'Schulten, Klaus']
+  pages: 39--65
+  title: Steered molecular dynamics
+  year: '1999'
+
+  description: |+
+    [2015-wetmsm] cited this for methods: steered MD
+
+hess2008gromacs:
+  author: ['Hess, B.', 'Kutzner, C.', 'van der Spoel, D.', 'Lindahl, E.']
+  journal: J. Chem. Theory Comput.
+  pages: 435--447
+  title: 'GROMACS 4: Algorithms for highly efficient, load-balanced, and scalable
+    molecular simulation'
+  volume: '4'
+  year: '2008'
+
+  description: |+
+    [2015-wetmsm] cited this for methods: gromacs
+
+hess1997lincs:
+  author: ['Hess, B.', 'Bekker, H.', 'Berendsen, H.J.C.', 'Fraaije, J.G.E.M.']
+  journal: J. Comp. Chem.
+  pages: 1463--1472
+  title: 'LINCS: a linear constraint solver for molecular simulations'
+  volume: '18'
+  year: '1997'
+
+  description: |+
+    [2015-wetmsm] cited this for methods: lincs
+
+darden1993particle:
+  author: ['Darden, T.', 'York, D.', 'Pedersen, L.']
+  journal: J. Chem. Phys.
+  pages: '10089'
+  title: 'Particle mesh Ewald: An Nlog (N) method for Ewald sums in large systems'
+  volume: '98'
+  year: '1993'
+
+  description: |+
+    [2015-wetmsm] cited this for methods: pme

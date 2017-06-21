@@ -455,3 +455,8 @@
     across protocols (so you can basically only scan number of states or clustering method),
     but! this was the first paper to seriously suggest using a smaller number of states
     to avoid overfitting.
+
+2015-wetmsm:
+  doi: 10.1021/ct5010017
+  description: |+
+    Solvent-shells featurization for including solvent in MSM construction.
