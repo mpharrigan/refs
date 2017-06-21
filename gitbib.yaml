@@ -6,6 +6,10 @@ description: |+
   References
 
 outputs:
+  - fn: all
+    all: True
+    description: All entries
+
   - fn: misc
     input-fn: misc.yaml
     description: |+
@@ -31,3 +35,5 @@ outputs:
   - fn: trek
     input-fn: trek.yaml
     description: Incomplete list of references used for Trek paper
+  - fn: theses
+    input-fn: theses.yaml

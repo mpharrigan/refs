@@ -1,0 +1,25 @@
+2016-mcgibbon-thesis:
+  url: http://purl.stanford.edu/sc364qr4692
+  title: Statistical models of protein conformational dynamics
+  author:
+    - {given: Robert, family: McGibbon}
+
+
+2015-schwantes-thesis:
+  url: http://purl.stanford.edu/ng324mk0023
+  title: Automated construction of order parameters for analyzing simulations of protein folding and water dynamics
+  author:
+    - {given: Christian, family: Schwantes}
+  published-print: !!timestamp 2015-05-01
+  description: |+
+    Section 1.2 is adapted from [2015-schwantes-ktica=27] and [2014-mcgibbon-bic=28].
+
+    Chapter 2 is adapted from [2014-mcgibbon-bic=28].
+
+    Chapter 3 is adapted from [2013-schwantes-tica=73].
+
+    Chapter 4 is adapted from [2016-schwantes-nug2=122].
+
+    Chapter 5 is adapted from [2015-schwantes-ktica=27].
+
+    Chapter 6 is supposed to have been submitted for publication.

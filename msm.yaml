@@ -444,3 +444,14 @@
     to do state exploration via NVT or NPT and then calculate transitions by launching bespoke
     NVE simulations. Obviously, we just run big NPT runs and use that for both state space
     exploration and counting transitions.
+
+2014-mcgibbon-bic:
+  doi: 10.1021/jp411822r
+  tags: [msm, cross-validation]
+  description: |+
+    This is before [2015-mcgibbon-gmrq] GRMQ cross-validation. They explicitly find the volume of
+    voronoi cells (in low number of tIC space) to find a likelihood. They use AIC/BIC
+    to find the number of states to use. Finding volumes is tough and you still can't compare
+    across protocols (so you can basically only scan number of states or clustering method),
+    but! this was the first paper to seriously suggest using a smaller number of states
+    to avoid overfitting.

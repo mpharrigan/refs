@@ -13,3 +13,9 @@
     The authors simulated folding trajectories for 12 small proteins. The simulations were
     between 100 us and 1 ms. This paper was a considerable advance for the field, and more
     or less closed the book on molecular dynamics for folding.
+
+2016-schwantes-nug2:
+  doi: 10.1016/j.bpj.2016.03.026
+  description: |+
+    They find an intermediate in [2011-larsen-folding] NuG2 trajectories that is a register
+    shift that was missed before tICA+MSM.
