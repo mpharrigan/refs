@@ -87,186 +87,50 @@
 
 
 aryal2014hydrophobic:
-  author:
-  - Aryal, Prafulla
-  - Abd-Wahab, Firdaus
-  - Bucci, Giovanna
-  - Sansom, Mark SP
-  - Tucker, Stephen J
-  journal: Nature communications
-  title: A hydrophobic barrier deep within the inner pore of the TWIK-1 K2P potassium
-    channel
-  volume: 5
-  year: 2014
-
-goldstein2001potassium:
-  journal: Nature Reviews Neuroscience
-  pages: 175--184
-  title: Potassium leak channels and the KCNK family of two-P-domain subunits
-  volume: 2
-  year: 2001
-
-hoshi1991two:
-  author:
-  - Hoshi, Toshinori
-  - Zagotta, William N
-  - Aldrich, Richard W
-  journal: Neuron
-  pages: 547--556
-  title: 'Two types of inactivation in Shaker K+ channels: effects of alterations in the carboxy-terminal region'
-  volume: 7
-  year: 1991
-
-jensen2010principles:
-  journal: Proceedings of the National Academy of Sciences
-  pages: 5833--5838
-  title: Principles of conduction and hydrophobic gating in K+ channels
-  volume: 107
-  year: 2010
-
-lesage2000human:
-  journal: Journal of Biological Chemistry
-  pages: 28398--28405
-  title: Human TREK2, a 2P domain mechano-sensitive K+ channel with multiple regulations
-    by polyunsaturated fatty acids, lysophospholipids, and Gs, Gi, and Gq protein-coupled
-    receptors
-  volume: 275
-  year: 2000
-
-mcclenaghan2016polymodal:
-  author:
-  - McClenaghan, Conor
-  - Schewe, Marcus
-  - Aryal, Prafulla
-  - Carpenter, Elisabeth P
-  - Baukrowitz, Thomas
-  - Tucker, Stephen J
-  journal: The Journal of general physiology
-  pages: 497--505
-  title: Polymodal activation of the TREK-2 K2P channel produces structurally distinct
-    open states
-  volume: 147
-  year: 2016
-
-noel2011molecular:
-  journal: Channels
-  pages: 402--409
-  title: Molecular regulations governing TREK and TRAAK channel functions
-  volume: 5
-  year: 2011
-
-rapedius2012state:
-  author:
-  - Rapedius, Markus
-  - Schmidt, Matthias R
-  - Sharma, Chetan
-  - Stansfeld, Phillip J
-  - Sansom, Mark SP
-  - Baukrowitz, Thomas
-  - Tucker, Stephen J
-  journal: Channels
-  pages: 473--478
-  title: State-independent intracellular access of quaternary ammonium blockers to
-    the pore of TREK-1
-  volume: 6
-  year: 2012
-
-ren2016allosteric:
-  author:
-  - Ren-Gong Zhuo, Peng Peng
-  - Liu, Xiao-Yan
-  - Yan, Hai-Tao
-  - Xu, Jiang-Ping
-  - Zheng, Jian-Quan
-  - Wei, Xiao-Li
-  - Ma, Xiao-Yun
-  journal: Scientific reports
-  title: Allosteric coupling between proximal c-terminus and selectivity filter is
-    facilitated by the movement of transmembrane segment 4 in trek-2 channel
-  volume: 6
-  year: 2016
-
-schewe2016non:
-  journal: Cell
-  pages: 937--949
-  title: A non-canonical voltage-sensing mechanism controls gating in K2P K+ channels
-  volume: 164
-  year: 2016
+  doi: 10.1038/ncomms5377
 
 bagriantsev2011multiple:
-  author:
-  - Bagriantsev, Sviatoslav N
-  - Peyronnet, Remi
-  - Clark, Kimberly A
-  - Honore, Eric
-  - Minor, Daniel L
-  journal: The EMBO Journal
-  pages: 3594--3606
-  title: 'Multiple modalities converge on a common gate to control K2P channel function'
-  volume: 30
-  year: 2011
+  doi: 10.1038/emboj.2011.230
 
 clarke2010domain:
-  author:
-  - Clarke, Oliver B
-  - Caputo, Alessandro T
-  - Hill, Adam P
-  - Vandenberg, Jamie I
-  - Smith, Brian J
-  - Gulbis, Jacqueline M
-  journal: Cell
-  pages: 1018--1029
-  title: 'Domain reorientation and rotation of an intracellular assembly
-
-    regulate conduction in Kir potassium channels'
-  volume: 141
-  year: 2010
+  doi: 10.1016/j.cell.2010.05.003
 
 cuello2010structural:
-  author:
-  - Cuello, Luis G
-  - Jogini, Vishwanath
-  - Cortes, D Marien
-  - Perozo, Eduardo
-  journal: Nature
-  pages: 203--208
-  title: Structural mechanism of C-type inactivation in K+ channels
-  volume: 466
-  year: 2010
+  doi: 10.1038/nature09153
+
+goldstein2001potassium:
+  doi: 10.1016/b978-008045046-9.01636-3
 
 hodgkin1955potassium:
-  author:
-  - Hodgkin, Al L
-  - Keynes, RD
-  journal: The Journal of Physiology
-  pages: 61--88
-  title: The potassium permeability of a giant nerve fibre
-  volume: 128
-  year: 1955
+  doi: 10.1113/jphysiol.1955.sp005291
+
+hoshi1991two:
+  doi: 10.1016/0896-6273(91)90367-9
 
 hummer2014potassium:
-  author:
-  - Hummer, Gerhard
-  journal: Science
-  pages: 303--303
-  title: Potassium ions line up
-  volume: 346
-  year: 2014
+  doi: 10.1126/science.1260555
+
+jensen2010principles:
+  doi: 10.1073/pnas.0911691107
+
+lesage2000human:
+  doi: 10.1074/jbc.m002822200
+
+mcclenaghan2016polymodal:
+  doi: 10.1085/jgp.201611601
+
+noel2011molecular:
+  doi: 10.4161/chan.5.5.16469
 
 piechotta2011pore:
-  author:
-  - Piechotta, Paula L
-  - Rapedius, Markus
-  - Stansfeld, Phillip J
-  - Bollepalli, Murali K
-  - Erhlich, Gunter
-  - Andres-Enguix, Isabelle
-  - Fritzenschaft, Hariolf
-  - Decher, Niels
-  - Sansom, Mark SP
-  - Tucker, Stephen J
-  journal: The EMBO journal
-  pages: 3607--3619
-  title: The pore structure and gating mechanism of K2P channels
-  volume: 30
-  year: 2011
+  doi: 10.1038/emboj.2011.268
+
+rapedius2012state:
+  doi: 10.4161/chan.22153
+
+ren2016allosteric:
+  doi: 10.1038/srep21248
+
+schewe2016non:
+  doi: 10.1016/j.cell.2016.02.002
+
