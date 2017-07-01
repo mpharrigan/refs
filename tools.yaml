@@ -72,6 +72,10 @@
   doi: 10.1021/ct200463m
   tags: [software]
 
+2016-msmbuilder3:
+  doi: 10.1016/j.bpj.2016.10.042
+  tags: [software]
+
 2011-sklearn:
   title: "Scikit-learn: Machine Learning in Python"
   author:
