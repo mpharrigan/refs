@@ -86,108 +86,109 @@
         Compare external electric field with ion imbalance.
 
 
-#mcclenaghan2016polymodal:
-#  title={Polymodal activation of the TREK-2 K2P channel produces structurally distinct open states},
-#  author={McClenaghan, Conor and Schewe, Marcus and Aryal, Prafulla and Carpenter, Elisabeth P and Baukrowitz, Thomas and Tucker, Stephen J},
-#  journal={The Journal of general physiology},
-#  volume={147},
-#  number={6},
-#  pages={497--505},
-#  year={2016},
-#  publisher={Rockefeller Univ Press}
+aryal2014hydrophobic:
+  author:
+  - Aryal, Prafulla
+  - Abd-Wahab, Firdaus
+  - Bucci, Giovanna
+  - Sansom, Mark SP
+  - Tucker, Stephen J
+  journal: Nature communications
+  title: A hydrophobic barrier deep within the inner pore of the TWIK-1 K2P potassium
+    channel
+  volume: 5
+  year: 2014
 
-#@article{goldstein2001potassium,
-#  title={Potassium leak channels and the KCNK family of two-P-domain subunits},
-#  author={Goldstein, Steve AN and Bockenhauer, Detlef and O'Kelly, Ita and Zilberberg, Noam},
-#  journal={Nature Reviews Neuroscience},
-#  volume={2},
-#  number={3},
-#  pages={175--184},
-#  year={2001},
-#  publisher={Nature Publishing Group}
-#}
+goldstein2001potassium:
+  journal: Nature Reviews Neuroscience
+  pages: 175--184
+  title: Potassium leak channels and the KCNK family of two-P-domain subunits
+  volume: 2
+  year: 2001
 
-#@article{rapedius2012state,
-#  title={State-independent intracellular access of quaternary ammonium blockers to the pore of TREK-1},
-#  author={Rapedius, Markus and Schmidt, Matthias R and Sharma, Chetan and Stansfeld, Phillip J and Sansom, Mark SP and Baukrowitz, Thomas and Tucker, Stephen J},
-#  journal={Channels},
-#  volume={6},
-#  number={6},
-#  pages={473--478},
-#  year={2012},
-#  publisher={Taylor \& Francis}
-#}
+hoshi1991two:
+  author:
+  - Hoshi, Toshinori
+  - Zagotta, William N
+  - Aldrich, Richard W
+  journal: Neuron
+  pages: 547--556
+  title: 'Two types of inactivation in Shaker K+ channels: effects of alterations in the carboxy-terminal region'
+  volume: 7
+  year: 1991
 
-#@article{noel2011molecular,
-#  title={Molecular regulations governing TREK and TRAAK channel functions},
-#  author={No{\"e}l, Jacques and Sandoz, Guillaume and Lesage, Florian},
-#  journal={Channels},
-#  volume={5},
-#  number={5},
-#  pages={402--409},
-#  year={2011},
-#  publisher={Taylor \& Francis}
-#}
+jensen2010principles:
+  journal: Proceedings of the National Academy of Sciences
+  pages: 5833--5838
+  title: Principles of conduction and hydrophobic gating in K+ channels
+  volume: 107
+  year: 2010
 
-#@article{lesage2000human,
-#  title={Human TREK2, a 2P domain mechano-sensitive K+ channel with multiple regulations by polyunsaturated fatty acids, lysophospholipids, and Gs, Gi, and Gq protein-coupled receptors},
-#  author={Lesage, Florian and Terrenoire, C{\'e}cile and Romey, Georges and Lazdunski, Michel},
-#  journal={Journal of Biological Chemistry},
-#  volume={275},
-#  number={37},
-#  pages={28398--28405},
-#  year={2000},
-#  publisher={ASBMB}
-#}
+lesage2000human:
+  journal: Journal of Biological Chemistry
+  pages: 28398--28405
+  title: Human TREK2, a 2P domain mechano-sensitive K+ channel with multiple regulations
+    by polyunsaturated fatty acids, lysophospholipids, and Gs, Gi, and Gq protein-coupled
+    receptors
+  volume: 275
+  year: 2000
 
-#@article{schewe2016non,
-#  title={A non-canonical voltage-sensing mechanism controls gating in K2P K+ channels},
-#  author={Schewe, Marcus and Nematian-Ardestani, Ehsan and Sun, Han and Musinszki, Marianne and Cordeiro, S{\"o}nke and Bucci, Giovanna and de Groot, Bert L and Tucker, Stephen J and Rapedius, Markus and Baukrowitz, Thomas},
-#  journal={Cell},
-#  volume={164},
-#  number={5},
-#  pages={937--949},
-#  year={2016},
-#  publisher={Elsevier}
-#}
+mcclenaghan2016polymodal:
+  author:
+  - McClenaghan, Conor
+  - Schewe, Marcus
+  - Aryal, Prafulla
+  - Carpenter, Elisabeth P
+  - Baukrowitz, Thomas
+  - Tucker, Stephen J
+  journal: The Journal of general physiology
+  pages: 497--505
+  title: Polymodal activation of the TREK-2 K2P channel produces structurally distinct
+    open states
+  volume: 147
+  year: 2016
 
-#@article{jensen2010principles,
-#  title={Principles of conduction and hydrophobic gating in K+ channels},
-#  author={Jensen, Morten {\O} and Borhani, David W and Lindorff-Larsen, Kresten and Maragakis, Paul and Jogini, Vishwanath and Eastwood, Michael P and Dror, Ron O and Shaw, David E},
-#  journal={Proceedings of the National Academy of Sciences},
-#  volume={107},
-#  number={13},
-#  pages={5833--5838},
-#  year={2010},
-#  publisher={National Acad Sciences}
-#}
+noel2011molecular:
+  journal: Channels
+  pages: 402--409
+  title: Molecular regulations governing TREK and TRAAK channel functions
+  volume: 5
+  year: 2011
 
-#@article{aryal2014hydrophobic,
-#  title={A hydrophobic barrier deep within the inner pore of the TWIK-1 K2P potassium channel},
-#  author={Aryal, Prafulla and Abd-Wahab, Firdaus and Bucci, Giovanna and Sansom, Mark SP and Tucker, Stephen J},
-#  journal={Nature communications},
-#  volume={5},
-#  year={2014},
-#  publisher={Nature Publishing Group}
-#}
+rapedius2012state:
+  author:
+  - Rapedius, Markus
+  - Schmidt, Matthias R
+  - Sharma, Chetan
+  - Stansfeld, Phillip J
+  - Sansom, Mark SP
+  - Baukrowitz, Thomas
+  - Tucker, Stephen J
+  journal: Channels
+  pages: 473--478
+  title: State-independent intracellular access of quaternary ammonium blockers to
+    the pore of TREK-1
+  volume: 6
+  year: 2012
 
-#@article{hoshi1991two,
-#  title={Two types of inactivation in Shaker K+ channels: effects of
-#alterations in the carboxy-terminal region},
-#  author={Hoshi, Toshinori and Zagotta, William N and Aldrich, Richard W},
-#  journal={Neuron},
-#  volume={7},
-#  number={4},
-#  pages={547--556},
-#  year={1991},
-#  publisher={Elsevier}
-#}
+ren2016allosteric:
+  author:
+  - Ren-Gong Zhuo, Peng Peng
+  - Liu, Xiao-Yan
+  - Yan, Hai-Tao
+  - Xu, Jiang-Ping
+  - Zheng, Jian-Quan
+  - Wei, Xiao-Li
+  - Ma, Xiao-Yun
+  journal: Scientific reports
+  title: Allosteric coupling between proximal c-terminus and selectivity filter is
+    facilitated by the movement of transmembrane segment 4 in trek-2 channel
+  volume: 6
+  year: 2016
 
-#@article{ren2016allosteric,
-#  title={Allosteric coupling between proximal c-terminus and selectivity filter is facilitated by the movement of transmembrane segment 4 in trek-2 channel},
-#  author={Ren-Gong Zhuo, Peng Peng and Liu, Xiao-Yan and Yan, Hai-Tao and Xu, Jiang-Ping and Zheng, Jian-Quan and Wei, Xiao-Li and Ma, Xiao-Yun},
-#  journal={Scientific reports},
-#  volume={6},
-#  year={2016},
-#  publisher={Nature Publishing Group}
-#}
+schewe2016non:
+  journal: Cell
+  pages: 937--949
+  title: A non-canonical voltage-sensing mechanism controls gating in K2P K+ channels
+  volume: 164
+  year: 2016
