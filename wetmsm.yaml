@@ -151,6 +151,12 @@ gu_building_2013:
   description: |+
     [2015-wetmsm] method based off of this.
 
+rao_structural_2010:
+  doi: 10.1021/jp1060792
+  description: |+
+    prior work for water features. Contrast with [2015-wetmsm].
+
+
 jorgensen1983comparison:
   author: ['Jorgensen, W.L.', 'Chandrasekhar, J.', 'Madura, J.D.', 'Impey, R.W.',
     'Klein, M.L.']
@@ -163,7 +169,7 @@ jorgensen1983comparison:
   description: |+
     [2015-wetmsm] cited this for methods: tip3p.
 
-2010-lindorff2010improved:
+lindorff2010improved:
   author: ['Lindorff-Larsen, Kresten', 'Piana, Stefano', 'Palmo, Kim', 'Maragakis,
       Paul', 'Klepeis, John L', 'Dror, Ron O', 'Shaw, David E']
   journal: 'Proteins: Struct., Funct., and Bioinf.'
