@@ -192,3 +192,81 @@ schewe2016non:
   title: A non-canonical voltage-sensing mechanism controls gating in K2P K+ channels
   volume: 164
   year: 2016
+
+bagriantsev2011multiple:
+  author:
+  - Bagriantsev, Sviatoslav N
+  - Peyronnet, Remi
+  - Clark, Kimberly A
+  - Honore, Eric
+  - Minor, Daniel L
+  journal: The EMBO Journal
+  pages: 3594--3606
+  title: 'Multiple modalities converge on a common gate to control K2P channel function'
+  volume: 30
+  year: 2011
+
+clarke2010domain:
+  author:
+  - Clarke, Oliver B
+  - Caputo, Alessandro T
+  - Hill, Adam P
+  - Vandenberg, Jamie I
+  - Smith, Brian J
+  - Gulbis, Jacqueline M
+  journal: Cell
+  pages: 1018--1029
+  title: 'Domain reorientation and rotation of an intracellular assembly
+
+    regulate conduction in Kir potassium channels'
+  volume: 141
+  year: 2010
+
+cuello2010structural:
+  author:
+  - Cuello, Luis G
+  - Jogini, Vishwanath
+  - Cortes, D Marien
+  - Perozo, Eduardo
+  journal: Nature
+  pages: 203--208
+  title: Structural mechanism of C-type inactivation in K+ channels
+  volume: 466
+  year: 2010
+
+hodgkin1955potassium:
+  author:
+  - Hodgkin, Al L
+  - Keynes, RD
+  journal: The Journal of Physiology
+  pages: 61--88
+  title: The potassium permeability of a giant nerve fibre
+  volume: 128
+  year: 1955
+
+hummer2014potassium:
+  author:
+  - Hummer, Gerhard
+  journal: Science
+  pages: 303--303
+  title: Potassium ions line up
+  volume: 346
+  year: 2014
+
+piechotta2011pore:
+  author:
+  - Piechotta, Paula L
+  - Rapedius, Markus
+  - Stansfeld, Phillip J
+  - Bollepalli, Murali K
+  - Erhlich, Gunter
+  - Andres-Enguix, Isabelle
+  - Fritzenschaft, Hariolf
+  - Decher, Niels
+  - Sansom, Mark SP
+  - Tucker, Stephen J
+  journal: The EMBO journal
+  pages: 3607--3619
+  title: The pore structure and gating mechanism of K2P channels
+  volume: 30
+  year: 2011
