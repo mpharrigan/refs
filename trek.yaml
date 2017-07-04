@@ -134,3 +134,57 @@ ren2016allosteric:
 schewe2016non:
   doi: 10.1016/j.cell.2016.02.002
 
+2004-pmf:
+  author:
+  - Sanghyun Park
+  - Klaus Schulten
+  doi: 10.1063/1.1651473
+  journal: The Journal of Chemical Physics
+  pages: 5946
+  title: Calculating potentials of mean force from steered molecular dynamics simulations
+  volume: 120
+  year: 2004
+
+case2014amber:
+  author:
+  - Case, DA
+  - Babin, V
+  - Berryman, Josh
+  - Betz, RM
+  - Cai, Q
+  - Cerutti, DS
+  - Cheatham Iii, TE
+  - Darden, TA
+  - Duke, RE
+  - Gohlke, H
+  - others
+  title: Amber 14
+  year: 2014
+maier2015ff14sb:
+  author:
+  - Maier, James A
+  - Martinez, Carmenza
+  - Kasavajhala, Koushik
+  - Wickstrom, Lauren
+  - Hauser, Kevin E
+  - Simmerling, Carlos
+  journal: Journal of chemical theory and computation
+  pages: 3696--3713
+  title: 'ff14SB: improving the accuracy of protein side chain and backbone parameters
+    from ff99SB'
+  volume: 11
+  year: 2015
+pettersen2004ucsf:
+  author:
+  - Pettersen, Eric F
+  - Goddard, Thomas D
+  - Huang, Conrad C
+  - Couch, Gregory S
+  - Greenblatt, Daniel M
+  - Meng, Elaine C
+  - Ferrin, Thomas E
+  journal: Journal of computational chemistry
+  pages: 1605--1612
+  title: UCSF Chimera-a visualization system for exploratory research and analysis
+  volume: 25
+  year: 2004
