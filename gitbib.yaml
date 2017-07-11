@@ -37,3 +37,5 @@ outputs:
     description: Incomplete list of references used for Trek paper
   - fn: theses
     input-fn: theses.yaml
+    include_descendants: True
+    description: People's PhD theseses
