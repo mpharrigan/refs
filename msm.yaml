@@ -460,3 +460,29 @@
   doi: 10.1021/ct5010017
   description: |+
     Solvent-shells featurization for including solvent in MSM construction.
+
+
+
+2013-mcgibbon-kdml:
+  doi: 10.1021/ct400132h
+  description: |+
+    Learn scaling of coordinates to better approximate kinetics? Redundant with tICA.
+
+
+
+2014-mcgibbon-hmm:
+  title: Understanding Protein Dynamics with L1-Regularized Reversible Hidden Markov Models
+  author: Robert McGibbon and Bharath Ramsundar and Mohammad Sultan and Gert Kiss and Vijay Pande
+  booktitle: Proceedings of the 31st International Conference on Machine Learning
+  pages: 1197--1205
+  year: 2014
+  editor: Eric P. Xing and Tony Jebara
+  volume: 32
+  number: 2
+  series: Proceedings of Machine Learning Research
+  address: Bejing, China
+  month: 22--24 Jun
+  publisher: PMLR
+  url: http://proceedings.mlr.press/v32/mcgibbon14.html
+  description: |+
+    Use hidden markov models instead of discrete state MSMs.

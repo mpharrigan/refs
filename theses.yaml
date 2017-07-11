@@ -3,6 +3,24 @@
   title: Statistical models of protein conformational dynamics
   author:
     - {given: Robert, family: McGibbon}
+  published-print: !!timestamp 2016-03-01
+  description: |+
+    Chapter 1 is a bespoke introduction to MD and MSMs
+
+    Chapter 2 is adapted from [2013-mcgibbon-kdml=37].
+
+    Chapter 3 is adapted from [2014-mcgibbon-hmm=92].
+
+    Chapter 4 is adapted from [2015-ratematrix=120].
+
+    Chapter 5 is adapted from [2014-mcgibbon-bic=162].
+
+    Chapter 6 is adapted from [2015-mcgibbon-gmrq=214].
+
+    Chapter 7 is adapted from [2016-sparsetica].
+
+    Chapter 8 is adapted from [2015-mdtraj].
+
 
 
 2015-schwantes-thesis:
