@@ -41,3 +41,9 @@
     Chapter 5 is adapted from [2015-schwantes-ktica=27].
 
     Chapter 6 is supposed to have been submitted for publication.
+
+2013-beauchamp-thesis:
+  title: Inferring protein structure and dynamics from simulation and experiment
+  author:
+    - {given: Kyle, family: Beauchamp}
+  published-print: !!timestamp 2013-09-01
