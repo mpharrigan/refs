@@ -10,31 +10,31 @@ outputs:
     all: True
     description: All entries
 
-  - fn: misc
-    input-fn: misc.yaml
-    description: |+
-      "Viral" papers that I see on twitter, mailing lists
   - fn: msm
     input-fn: msm.yaml
-    description: Markov state modeling
+    description: Markov state modeling for understanding molecular dynamics
+  - fn: simulations
+    input-fn: simulations.yaml
+    description: Notable molecular dynamics simulations of biomolecules
+  - fn: tools
+    input-fn: tools.yaml
+    description: Software tools or methodologies that deserve citations
   - fn: msmbuilder
     input-fn: msmbuilder.yaml
     description: Citations used for MSMBuilder paper
   - fn: nav
     input-fn: nav.yaml
-    description: Voltage gated sodium channel papers (or related)
+    description: Voltage gated sodium channel
   - fn: rmsd
     input-fn: rmsd.yaml
     description: Storied history of RMSD in molecular dynamics
-  - fn: simulations
-    input-fn: simulations.yaml
-    description: Notable molecular dynamics simulations
-  - fn: tools
-    input-fn: tools.yaml
-    description: Software tools that deserve citations
   - fn: trek
     input-fn: trek.yaml
     description: Incomplete list of references used for Trek paper
+  - fn: misc
+    input-fn: misc.yaml
+    description: |+
+      "Viral" papers that I see on twitter, mailing lists
   - fn: theses
     input-fn: theses.yaml
     include_descendants: True
