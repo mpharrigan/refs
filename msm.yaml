@@ -1,3 +1,7 @@
+2017-tica-metadynamics:
+  pmid: 28383914
+  doi: 10.1021/acs.jctc.7b00182
+
 2016-commute-maps:
   doi: 10.1021/acs.jctc.6b00762
   tags: [msm-theory]
@@ -136,10 +140,16 @@
   pages: {start: 191, end: 223}
   isbn: 978-3-642-62524-4
 
+2015-shukla-msm-review:
+  pmid: 25625937
+  pmcid: PMC4333613
+  doi: 10.1021/ar5002999
 
 2016-noe-reversible-tica:
     tags: [msm-theory]
-    arxiv: "1610.06773"
+    #arxiv: "1610.06773"
+    doi: 10.1063/1.4979344.
+    pmid: 28433026
     cites:
       - id: "doi:10.1063/1.4934536"
         num: 46
@@ -493,3 +503,47 @@
   isbn: [0-444-52965-9; 1-281-00388-3]
   author: Van-Kampen, N G
   year:  1987
+
+2008-protein-folding-problem:
+  doi: 10.1146/annurev.biophys.37.092707.153558
+
+1968-levinthal-paradox:
+  container-title:
+    short: J. Chim. Phys. Physico-Chim. Biol.
+  volume: 65
+  pages: 44--45
+  published-print: !!timestamp 1968-01-01
+  author:
+    - {given: C, family: Levinthal}
+  description: |+
+    Taken from [Nature's protein folding focus](http://www.nature.com/nsmb/focus/proteinfolding/classics/early.html)
+
+    Among the most widely cited—yet least read—papers in the field, partly owing to the difficulties in
+    getting hold of them, Cyrus Levinthal used a simple model to show that a typical polypeptide chain
+    cannot fold through an unbiased search of all conformational space on a reasonable timescale.
+    This is commonly referred to as the "Levinthal's paradox", and led to the concept that proteins fold
+    along discrete pathways. The first paper presents this idea and is usually cited, but the model is
+    actually presented in the second one. Although the model was later shown to be overly simplistic,
+    the work had a crucial role in directing the search and characterization of intermediate states.
+
+1992-levinthal-paradox:
+  description: |+
+    Conformational space is huge, but proteins can fold very fast.
+  pmcid: PMC48166
+  pmid: 1729690
+  author: Zwanzig, R and Szabo, A and Bagchi, B
+  title: Levinthal's paradox
+  volume: 89
+  number: 1
+  pages: 20--22
+  year: 1992
+  journal: Proceedings of the National Academy of Sciences
+
+2010-pande-folding:
+  doi: 10.1103/PhysRevLett.105.198101
+  pmid: 21231198
+  description: |+
+    Non-native interactions and misfolding
+
+2009-md-perspective:
+  doi: 10.1016/j.sbi.2009.03.004

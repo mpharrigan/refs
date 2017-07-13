@@ -1,3 +1,8 @@
+#2014-haque-fast-rmsd:
+  # doi: 10.1101/008631
+  # TODO: no container-title from crossref
+
+
 2009-theobald-rmsd:
   doi: "10.1002/jcc.21439"
   description: |+

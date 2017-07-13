@@ -100,3 +100,67 @@
   page: 2825-2830
   published-print: !!timestamp 2011-01-01
   tags: [software, python]
+
+2014-scicomp-best-practices:
+  doi: 10.1371/journal.pbio.1001745
+
+2012-amber:
+  doi: 10.1021/ct200909j
+
+2011-mdanalysis:
+  doi: 10.1002/jcc.21787
+
+1973-shrake-rupley:
+  doi: 10.1016/0022-2836(73)90011-9
+  description: |+
+    Solvation
+
+1984-baker-hubbard:
+  doi: 10.1016/0079-6107(84)90007-5
+  description: |+
+    Hydrogen bond determination
+
+2015-ensembler:
+  doi: 10.1371/journal.pcbi.1004728
+  description: |+
+    Automatic generation of homology models of protein families
+
+2014-moore-coarsegrain:
+  doi: 10.1063/1.4880555
+  description: Coarse-graining?
+
+2014-pull-requests:
+  doi: 10.1145/2568225.2568260
+  description: |+
+    Pull-request based development model
+
+1989-computer-simulation-of-liquids:
+  author: Allen, M. P. and Tildesley, D. J.
+  booktitle: Computer Simulation of Liquids
+  isbn: 978-0198556459
+  publisher: Clarendon Press
+  address: Oxford
+  year: 1989
+  published-print: !!timestamp 1989-01-01
+
+2007-scalar-coupling:
+  doi: 10.1021/ja070324o
+
+
+2006-bowers-cluster:
+  doi: 10.1109/SC.2006.54
+
+1983-charmm:
+  doi: 10.1002/jcc.540040211
+
+2005-namd:
+  doi: 10.1002/jcc.20289
+
+1987-minimization:
+  doi: 10.1002/jcc.540080710
+
+1995-plimpton:
+  doi: 10.1006/jcph.1995.1039
+
+2009-acemd:
+  doi:
