@@ -1,3 +1,8 @@
+2017-baker-antibody-design:
+  doi: 10.1038/nbt.3907
+  description: |+
+    Uses computation to design an antibody for influenza A
+
 2014-ganguli-saddle-points:
   arxiv: "1406.2572"
   tags: [misc, machine-learning, deep-learning]
