@@ -486,3 +486,10 @@
   url: http://proceedings.mlr.press/v32/mcgibbon14.html
   description: |+
     Use hidden markov models instead of discrete state MSMs.
+
+
+2987-van-kampen-book:
+  title: Stochastic Processes in Physics and Chemistry
+  isbn: [0-444-52965-9; 1-281-00388-3]
+  author: Van-Kampen, N G
+  year:  1987
