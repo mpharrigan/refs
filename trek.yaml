@@ -1,3 +1,6 @@
+2016-trek2:
+    doi: 10.1038/s41598-017-00256-y
+
 2015-carpenter-structures:
     doi: 10.1126/science.1261512
     tags: [kchan, structures]
@@ -83,108 +86,105 @@
         Compare external electric field with ion imbalance.
 
 
-#mcclenaghan2016polymodal:
-#  title={Polymodal activation of the TREK-2 K2P channel produces structurally distinct open states},
-#  author={McClenaghan, Conor and Schewe, Marcus and Aryal, Prafulla and Carpenter, Elisabeth P and Baukrowitz, Thomas and Tucker, Stephen J},
-#  journal={The Journal of general physiology},
-#  volume={147},
-#  number={6},
-#  pages={497--505},
-#  year={2016},
-#  publisher={Rockefeller Univ Press}
+aryal2014hydrophobic:
+  doi: 10.1038/ncomms5377
 
-#@article{goldstein2001potassium,
-#  title={Potassium leak channels and the KCNK family of two-P-domain subunits},
-#  author={Goldstein, Steve AN and Bockenhauer, Detlef and O'Kelly, Ita and Zilberberg, Noam},
-#  journal={Nature Reviews Neuroscience},
-#  volume={2},
-#  number={3},
-#  pages={175--184},
-#  year={2001},
-#  publisher={Nature Publishing Group}
-#}
+bagriantsev2011multiple:
+  doi: 10.1038/emboj.2011.230
 
-#@article{rapedius2012state,
-#  title={State-independent intracellular access of quaternary ammonium blockers to the pore of TREK-1},
-#  author={Rapedius, Markus and Schmidt, Matthias R and Sharma, Chetan and Stansfeld, Phillip J and Sansom, Mark SP and Baukrowitz, Thomas and Tucker, Stephen J},
-#  journal={Channels},
-#  volume={6},
-#  number={6},
-#  pages={473--478},
-#  year={2012},
-#  publisher={Taylor \& Francis}
-#}
+clarke2010domain:
+  doi: 10.1016/j.cell.2010.05.003
 
-#@article{noel2011molecular,
-#  title={Molecular regulations governing TREK and TRAAK channel functions},
-#  author={No{\"e}l, Jacques and Sandoz, Guillaume and Lesage, Florian},
-#  journal={Channels},
-#  volume={5},
-#  number={5},
-#  pages={402--409},
-#  year={2011},
-#  publisher={Taylor \& Francis}
-#}
+cuello2010structural:
+  doi: 10.1038/nature09153
 
-#@article{lesage2000human,
-#  title={Human TREK2, a 2P domain mechano-sensitive K+ channel with multiple regulations by polyunsaturated fatty acids, lysophospholipids, and Gs, Gi, and Gq protein-coupled receptors},
-#  author={Lesage, Florian and Terrenoire, C{\'e}cile and Romey, Georges and Lazdunski, Michel},
-#  journal={Journal of Biological Chemistry},
-#  volume={275},
-#  number={37},
-#  pages={28398--28405},
-#  year={2000},
-#  publisher={ASBMB}
-#}
+goldstein2001potassium:
+  doi: 10.1016/b978-008045046-9.01636-3
 
-#@article{schewe2016non,
-#  title={A non-canonical voltage-sensing mechanism controls gating in K2P K+ channels},
-#  author={Schewe, Marcus and Nematian-Ardestani, Ehsan and Sun, Han and Musinszki, Marianne and Cordeiro, S{\"o}nke and Bucci, Giovanna and de Groot, Bert L and Tucker, Stephen J and Rapedius, Markus and Baukrowitz, Thomas},
-#  journal={Cell},
-#  volume={164},
-#  number={5},
-#  pages={937--949},
-#  year={2016},
-#  publisher={Elsevier}
-#}
+hodgkin1955potassium:
+  doi: 10.1113/jphysiol.1955.sp005291
 
-#@article{jensen2010principles,
-#  title={Principles of conduction and hydrophobic gating in K+ channels},
-#  author={Jensen, Morten {\O} and Borhani, David W and Lindorff-Larsen, Kresten and Maragakis, Paul and Jogini, Vishwanath and Eastwood, Michael P and Dror, Ron O and Shaw, David E},
-#  journal={Proceedings of the National Academy of Sciences},
-#  volume={107},
-#  number={13},
-#  pages={5833--5838},
-#  year={2010},
-#  publisher={National Acad Sciences}
-#}
+hoshi1991two:
+  doi: 10.1016/0896-6273(91)90367-9
 
-#@article{aryal2014hydrophobic,
-#  title={A hydrophobic barrier deep within the inner pore of the TWIK-1 K2P potassium channel},
-#  author={Aryal, Prafulla and Abd-Wahab, Firdaus and Bucci, Giovanna and Sansom, Mark SP and Tucker, Stephen J},
-#  journal={Nature communications},
-#  volume={5},
-#  year={2014},
-#  publisher={Nature Publishing Group}
-#}
+hummer2014potassium:
+  doi: 10.1126/science.1260555
 
-#@article{hoshi1991two,
-#  title={Two types of inactivation in Shaker K+ channels: effects of
-#alterations in the carboxy-terminal region},
-#  author={Hoshi, Toshinori and Zagotta, William N and Aldrich, Richard W},
-#  journal={Neuron},
-#  volume={7},
-#  number={4},
-#  pages={547--556},
-#  year={1991},
-#  publisher={Elsevier}
-#}
+jensen2010principles:
+  doi: 10.1073/pnas.0911691107
 
-#@article{ren2016allosteric,
-#  title={Allosteric coupling between proximal c-terminus and selectivity filter is facilitated by the movement of transmembrane segment 4 in trek-2 channel},
-#  author={Ren-Gong Zhuo, Peng Peng and Liu, Xiao-Yan and Yan, Hai-Tao and Xu, Jiang-Ping and Zheng, Jian-Quan and Wei, Xiao-Li and Ma, Xiao-Yun},
-#  journal={Scientific reports},
-#  volume={6},
-#  year={2016},
-#  publisher={Nature Publishing Group}
-#}
+lesage2000human:
+  doi: 10.1074/jbc.m002822200
+
+mcclenaghan2016polymodal:
+  doi: 10.1085/jgp.201611601
+
+noel2011molecular:
+  doi: 10.4161/chan.5.5.16469
+
+piechotta2011pore:
+  doi: 10.1038/emboj.2011.268
+
+rapedius2012state:
+  doi: 10.4161/chan.22153
+
+ren2016allosteric:
+  doi: 10.1038/srep21248
+
+schewe2016non:
+  doi: 10.1016/j.cell.2016.02.002
+
+2004-pmf:
+  author:
+  - Sanghyun Park
+  - Klaus Schulten
+  doi: 10.1063/1.1651473
+  journal: The Journal of Chemical Physics
+  pages: 5946
+  title: Calculating potentials of mean force from steered molecular dynamics simulations
+  volume: 120
+  year: 2004
+
+case2014amber:
+  author:
+  - Case, DA
+  - Babin, V
+  - Berryman, Josh
+  - Betz, RM
+  - Cai, Q
+  - Cerutti, DS
+  - Cheatham Iii, TE
+  - Darden, TA
+  - Duke, RE
+  - Gohlke, H
+  - others
+  title: Amber 14
+  year: 2014
+maier2015ff14sb:
+  author:
+  - Maier, James A
+  - Martinez, Carmenza
+  - Kasavajhala, Koushik
+  - Wickstrom, Lauren
+  - Hauser, Kevin E
+  - Simmerling, Carlos
+  journal: Journal of chemical theory and computation
+  pages: 3696--3713
+  title: 'ff14SB: improving the accuracy of protein side chain and backbone parameters
+    from ff99SB'
+  volume: 11
+  year: 2015
+pettersen2004ucsf:
+  author:
+  - Pettersen, Eric F
+  - Goddard, Thomas D
+  - Huang, Conrad C
+  - Couch, Gregory S
+  - Greenblatt, Daniel M
+  - Meng, Elaine C
+  - Ferrin, Thomas E
+  journal: Journal of computational chemistry
+  pages: 1605--1612
+  title: UCSF Chimera-a visualization system for exploratory research and analysis
+  volume: 25
+  year: 2004
