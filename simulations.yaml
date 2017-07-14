@@ -19,3 +19,11 @@
   description: |+
     They find an intermediate in [2011-larsen-folding] NuG2 trajectories that is a register
     shift that was missed before tICA+MSM.
+
+2005-myosin-motor:
+  doi: 10.1073/pnas.0408784102
+  tags: [conformational-change]
+
+2006-noe-conf-change:
+  doi: 10.1021/ct050162r
+  tags: [conformational-change]

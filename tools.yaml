@@ -166,3 +166,38 @@
 2009-anton:
   doi: 10.1145/1654059.1654126
 
+1999-ff99:
+  doi: 10.1021/ct2007814
+  tags: [forcefield]
+
+2004-charmm27:
+  doi: 10.1002/jcc.20065
+  tags: [forcefield]
+
+2010-charmm27:
+  doi: 10.1021/ct900549r
+  tags: [forcefield]
+
+2005-tip4p:
+  doi: 10.1063/1.2121687
+  tags: [forcefield]
+
+2004-gaff:
+  doi: 10.1002/jcc.20035
+  tags: [forcefield]
+
+2014-forcebalance:
+  doi: 10.1021/jz500737m
+  tags: [forcefield]
+
+2017-amber15fb:
+  doi: 10.1021/acs.jpcb.7b02320
+  tags: [forcefield]
+
+2003-drude-particles:
+  doi: 10.1063/1.1589749
+  tags: [forcefield]
+
+2010-amoeba:
+  doi: 10.1021/jp910674d
+  tags: [forcefield]
