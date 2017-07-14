@@ -206,6 +206,8 @@
 
 2014-msm-perspective:
     doi: 10.1063/1.4895044
+    pmid: 24836551
+    pmcid: PMC4124001
     description: |+
       Very good perspective on the importance of analysis (particularly MSM
       analysis) for understanding large, modern MD datasets. Money quote:
@@ -428,6 +430,14 @@
     doi: 10.1063/1.3569857
     tags: [other-md-analysis]
 
+2013-diffusion-map-sampling:
+  doi: 10.1021/jp401911h
+  description: |+
+    Use diffusion maps to run umberlla sampling
+
+2014-prinz-rate:
+  doi: 10.1103/PhysRevX.4.011020
+
 #@inproceedings{2014-hmm,
 #    Author = {McGibbon, Robert T. and Ramsundar, Bharath and Sultan, Mohammad
 #        M. and Kiss, Gert and Pande, Vijay S.},
@@ -497,6 +507,11 @@
   description: |+
     Use hidden markov models instead of discrete state MSMs.
 
+2013-noe-hmm:
+  doi: 10.1063/1.4828816
+
+2012-eigenvalue-error:
+  doi: 10.1137/100798910
 
 2987-van-kampen-book:
   title: Stochastic Processes in Physics and Chemistry
@@ -518,7 +533,7 @@
   description: |+
     Taken from [Nature's protein folding focus](http://www.nature.com/nsmb/focus/proteinfolding/classics/early.html)
 
-    Among the most widely cited—yet least read—papers in the field, partly owing to the difficulties in
+    Among the most widely cited-yet least read-papers in the field, partly owing to the difficulties in
     getting hold of them, Cyrus Levinthal used a simple model to show that a typical polypeptide chain
     cannot fold through an unbiased search of all conformational space on a reasonable timescale.
     This is commonly referred to as the "Levinthal's paradox", and led to the concept that proteins fold
@@ -547,3 +562,19 @@
 
 2009-md-perspective:
   doi: 10.1016/j.sbi.2009.03.004
+
+2009-plenty-of-room-focus:
+  doi: 10.1038/nnano.2009.356
+  description: |+
+    Editorial about [1960-plenty-of-room-at-the-bottom].
+
+1960-plenty-of-room-at-the-bottom:
+  title: There's Plenty of Room at the Bottom
+  published-print: !!timestamp 1960-02-01
+  issn: 0013-7812
+  author:
+    - {given: Richard, family: Feynman}
+  journal: Engineering and Science
+  volume: 23
+  number: 5
+  pages: 22--36
