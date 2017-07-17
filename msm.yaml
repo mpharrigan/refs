@@ -578,3 +578,8 @@
   volume: 23
   number: 5
   pages: 22--36
+
+2010-schulten-challenges:
+  doi: 10.1038/nphys1713
+  description: |+
+    Cited by [2014-msm-perspective] as highlighting analysis as a problem.
