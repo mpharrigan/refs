@@ -21,7 +21,7 @@
     They use the outerproduct of these mini-MSMs to serve as a basis set for peptides. MiniMSMs are on
     a grid in phi-psi angles. Since each miniMSM has approx 3 modes, the full basis would be 3^(N), which
     is way too big! They call the second and third modes "excited states" and use a basis set that contains
-    a singly-exited residue. E.g. [11111] + [ [21111, 121111, 112111, 111211, ...] ].
+    a singly-exited residue. E.g. 11111 + [ [21111, 121111, 112111, 111211, ...] ].
 
     Alanine preceded by a proline is taken as a special case.
 
@@ -92,9 +92,10 @@
       num: 21
       why: Data needs analysis
     - id: 2011-prinz
+      why: Details of transfer operator approach.
       num: 25
     - id: 2001-schutte-variational
-    - nums: [25, 33]
+      num: 33
       why: Details of transfer operator approach.
     - id: 2013-noe-variational
       num: 34
@@ -108,26 +109,22 @@
       why: |+
         "Successfully constructed estimates of the top eigenfunctions in the span of a prespecified library of basis functions."
         Contrast with this work, which "does not require a predefined basis set"
-    - nums: [22, 28, 36, 37, 38]
-      why: Citing tICA
     - num: 22
+      why: Citing tICA
       id: 2013-schwantes-tica
     - num: 28
+      why: Citing tICA
       id: 2013-noe-tica
       why: solutions to tica provide estimates of the slowest eigenfunctions of the transfer operator.
     - num: 36
+      why: Citing tICA
       id: "doi:10.1103/PhysRevLett.72.3634"
     - num: 37
+      why: Citing tICA
       id: "doi:10.1162/neco.2006.18.10.2495"
-    - nums: [22, 28]
-      why: tICA has been useful for finding slow timescales in simulations
     - num: 39
       id: 1998-scholkopf-kernel-pca
       why: Used to introduce ther kernel trick.
-    - nums: [39, 40, 41, 42, 43, 44]
-      why: Kernels are used in machine learning.
-    - nums: [45, 46]
-      why: Methods for simplifying kernel method computation.
 
 
 1998-scholkopf-kernel-pca:
@@ -147,17 +144,13 @@
 
 2016-noe-reversible-tica:
     tags: [msm-theory]
-    #arxiv: "1610.06773"
-    doi: 10.1063/1.4979344.
+    arxiv: "1610.06773"
+    doi: 10.1063/1.4979344
     pmid: 28433026
     cites:
       - id: "doi:10.1063/1.4934536"
         num: 46
         why: Reversibility makes analysis easier
-      - num: 47
-        why: Simulations should be reversible
-      - nums: [22, 23, 28, 46, 48, 49]
-        why: Reversible estimators were developed.
       - num: 50
         id: 2013-noe-variational
         note: |+
@@ -174,8 +167,6 @@
         note: |+
           In this paper, they say the old one was "variational principle for metastable stochastic processes"
           and they develop a "variational approach to molecular kinetics"
-      - nums: [50, 51, 52]
-        why: Variational approach (VAC)
 
     description: |+
       Provides a better way of "symetrizing" tICA correlation matrix. In tICA, you assume that the dynamics
