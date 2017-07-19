@@ -136,6 +136,9 @@
   doi: 10.1007/978-3-642-56589-2_9
   pages: {start: 191, end: 223}
   isbn: 978-3-642-62524-4
+  description: |+
+    Full treatment of transfer operator / propagator and build
+    an MSM for a small RNA chain.
 
 2015-shukla-msm-review:
   pmid: 25625937
@@ -574,3 +577,9 @@
   doi: 10.1038/nphys1713
   description: |+
     Cited by [2014-msm-perspective] as highlighting analysis as a problem.
+
+1999-schutte-msm:
+  doi: 10.1006/jcph.1999.6231
+  description: |+
+    Maybe the first time conformations were discretized and a Markov
+    operator was made.
