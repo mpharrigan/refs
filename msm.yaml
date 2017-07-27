@@ -243,6 +243,12 @@
       eigenvectors. This defines and relates the propogator and transfer operator. This shows
       how we compute timescales from eigenvectors. This discusess state decomposition error
       and shows that many states are needed in transition regions.
+
+      quote: it is clear that a “sufficiently fine” partitioning will be able to resolve “sufficient” detail
+      [2010-msm-error].
+
+      Cites [2004-nina-msm] for use of the term "MSM".
+
     tags: [msm-theory, review]
 
 2014-kohlhoff-exacycle:
@@ -583,3 +589,11 @@
   description: |+
     Maybe the first time conformations were discretized and a Markov
     operator was made.
+
+1991-complex-protein-energy-landscapes:
+  doi: 10.1126/science.1749933
+  description: |+
+    Cited by [2011-prinz] to say that there are many metastable states and many timescales.
+
+2004-nina-msm:
+  doi: 10.1063/1.1738647
