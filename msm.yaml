@@ -492,7 +492,12 @@
 
 2014-mcgibbon-hmm:
   title: Understanding Protein Dynamics with L1-Regularized Reversible Hidden Markov Models
-  author: Robert McGibbon and Bharath Ramsundar and Mohammad Sultan and Gert Kiss and Vijay Pande
+  author:
+    - Robert McGibbon
+    - Bharath Ramsundar
+    - Mohammad Sultan
+    - Gert Kiss
+    - Vijay Pande
   booktitle: Proceedings of the 31st International Conference on Machine Learning
   pages: 1197--1205
   year: 2014
@@ -516,7 +521,8 @@
 2987-van-kampen-book:
   title: Stochastic Processes in Physics and Chemistry
   isbn: [0-444-52965-9; 1-281-00388-3]
-  author: Van-Kampen, N G
+  author:
+    - N G Van-Kampen
   year:  1987
 
 2008-protein-folding-problem:
@@ -546,7 +552,10 @@
     Conformational space is huge, but proteins can fold very fast.
   pmcid: PMC48166
   pmid: 1729690
-  author: Zwanzig, R and Szabo, A and Bagchi, B
+  author:
+    - R. Zwanzig
+    - A. Szabo
+    - B. Bagchi
   title: Levinthal's paradox
   volume: 89
   number: 1
