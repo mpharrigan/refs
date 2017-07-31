@@ -7,6 +7,12 @@
   tags: [msm-theory]
   description: |+
     Scale tIC coordinates by a function of the timescale.
+    See also [2015-kinetic-mapping].
+
+2015-kinetic-mapping:
+  arxiv: 1506.06259
+  description: |+
+    Scale tIC coorindates by the eigenvalue. See also [2016-commute-maps].
 
 2015-gaussian-msms:
   doi: 10.1063/1.4913214
@@ -144,6 +150,7 @@
   pmid: 25625937
   pmcid: PMC4333613
   doi: 10.1021/ar5002999
+  tags: [review]
 
 2016-noe-reversible-tica:
     tags: [msm-theory]
@@ -151,7 +158,7 @@
     doi: 10.1063/1.4979344
     pmid: 28433026
     cites:
-      - id: "doi:10.1063/1.4934536"
+      - id: 2015-uncertainty-estimation
         num: 46
         why: Reversibility makes analysis easier
       - num: 50
@@ -178,7 +185,7 @@
       approximation if you have many short trajectories. This paper is analogous to the MLE method for
       symetrizing MSM counts matrices.
 
-"doi:10.1063/1.4934536":
+2015-uncertainty-estimation:
     doi: 10.1063/1.4934536
     description: Reversible estimates for MSMs
 
