@@ -616,3 +616,14 @@
 
 2004-nina-msm:
   doi: 10.1063/1.1738647
+
+2001-nystroem:
+  title: Using the Nyström Method to Speed Up Kernel Machines
+  author:
+    - Christopher K. I. Williams
+    - Matthias Seeger
+  booktitle: Advances in Neural Information Processing Systems 13
+  pages: 682--688
+  published-print: !!timestamp 2001-01-01
+  journal: Advances in Neural Information Processing Systems
+  volume: 13
