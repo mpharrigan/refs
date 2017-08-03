@@ -20,6 +20,12 @@
 2015-gaussian-msms:
   doi: 10.1063/1.4913214
   tags: [msm-theory]
+  description: |+
+    Variational method [2013-noe-variational=26] [2014-nuske-variational=27].
+
+    MSM is variational with step functions [2013-noe-variational=26].
+
+    "Markov transition models (MTMs)", specifically Gaussian mixtures (GMTM).
 
 
 2015-amino-acid-basis:
