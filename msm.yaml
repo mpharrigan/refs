@@ -627,3 +627,16 @@
   published-print: !!timestamp 2001-01-01
   journal: Advances in Neural Information Processing Systems
   volume: 13
+
+2012-nystroem:
+  title: "Nyström method vs random fourier features: A theoretical and empirical comparison"
+  author:
+    - Yang, Tianbao
+    - Li, Yu-Feng
+    - Mahdavi, Mehrdad
+    - Jin, Rong
+    - Zhou, Zhi-Hua
+  booktitle: Advances in neural information processing systems
+  journal: Advances in Neural Information Processing Systems
+  pages: 476--484
+  published-print: !!timestamp 2012-01-01
