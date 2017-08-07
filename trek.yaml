@@ -135,16 +135,9 @@ schewe2016non:
   doi: 10.1016/j.cell.2016.02.002
 
 2004-pmf:
-  author:
-  - Sanghyun Park
-  - Klaus Schulten
   doi: 10.1063/1.1651473
-  journal: The Journal of Chemical Physics
-  pages: 5946
-  title: Calculating potentials of mean force from steered molecular dynamics simulations
-  volume: 120
-  year: 2004
 
+#TODO: Move to tools
 case2014amber:
   author:
   - Case, DA
@@ -160,6 +153,7 @@ case2014amber:
   title: Amber 14
   year: 2014
 
+# TODO: Move to tools
 maier2015ff14sb:
   author:
   - Maier, James A
@@ -175,6 +169,7 @@ maier2015ff14sb:
   volume: 11
   year: 2015
 
+# TODO: Move to tools
 pettersen2004ucsf:
   author:
   - Pettersen, Eric F
