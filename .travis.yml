@@ -1,5 +1,5 @@
 language: python
-install: "pip install flit gitbib"
+install: "pip install gitbib"
 script: "gitbib ."
 
 deploy:
