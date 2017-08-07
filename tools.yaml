@@ -138,7 +138,9 @@
     Pull-request based development model
 
 1989-computer-simulation-of-liquids:
-  author: Allen, M. P. and Tildesley, D. J.
+  author:
+    - Allen, M. P.
+    - Tildesley, D. J.
   booktitle: Computer Simulation of Liquids
   isbn: 978-0198556459
   publisher: Clarendon Press
@@ -148,7 +150,6 @@
 
 2007-scalar-coupling:
   doi: 10.1021/ja070324o
-
 
 2006-bowers-cluster:
   doi: 10.1109/SC.2006.54
