@@ -2,7 +2,11 @@ language: python
 python:
   - "3.5"
 install: "pip install requests pyyaml jinja2 sqlalchemy pyparsing gitbib"
-script: "gitbib ."
+script: "gitbib -c cache/gitbib.sqlite ."
+
+cache:
+  directories:
+    - cache
 
 deploy:
   provider: pages
