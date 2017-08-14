@@ -1,3 +1,84 @@
+2017-set-free-msm:
+  doi: 10.1063/1.4978501
+  description: |+
+    Collection of m "base points" they make a gaussian
+    RBF of distances to base points. They normalize it to unity.
+    This is the softmax function, but they don't call it that.
+
+    They add base points adaptively and use PCCA+ to lump.
+
+    Note that they have stopped calling this "meshless" or "mesh-free", probably
+    because the regular MSM is also meshless. Now the abstract says "This kind of meshless discretization..."
+
+2015-schutte-msm:
+  doi: 10.1140/epjst/e2015-02421-0
+  description: |+
+    Transfer operator [1999-schutte-msm=1].
+
+    Coarse grain MSM states [2000-pcca=2] [2005-pcca=3].
+
+    Meshless MSMs [2006-meshless-msm-thesis=24] [2011-meshless-msm=32] [2011-meshless-msm=33].
+    Wikipedia says these are also called "meshfree" methods.
+
+
+2013-meshless-msm:
+  doi: 10.1007/978-3-642-32979-1_9
+  description: |+
+    Soften the hard clustering [2006-meshless-msm-thesis=37].
+
+    Cite Shepard's approach [1968-shepard-method=30] like [2006-meshless-msm-thesis] does
+    to introduce the softmax function as basis functions with softness
+    parameter alpha. Note that this is not Shepard's method.
+
+    They frame everything in the context of lumping and PCCA+ and use ZIBgridfree
+    to simulate trialanine faster than unbiased (100ns vs 10ns).
+
+
+2011-meshless-msm:
+  title: Soft Versus Hard Metastable Conformations in Molecular Simulations
+  author:
+    - Konstantin Fackeldey
+    - Susanna Röblitz
+    - Olga Scharkoi
+    - Marcus Weber
+  published-online: !!timestamp 2011-06-22
+  description: |+
+    They note MSM is a meshfree method with characteristic basis functions.
+
+    They define a "hard decomposition" in the obvious way. They define a "soft decomposition"
+    also as a partitioning of unity, but allowing overlap.
+
+    They still do PCCA+ and it's unclear what shape function they're using
+    for softness. As an example, they lump 504 soft states into 5 macrostates
+    of alanine dipeptide, sometimes spelled alanin dipeptid
+
+
+2006-meshless-msm-thesis:
+  author:
+    - Marcus Weber
+  title: Meshless Methods in Conformational Dynamics
+  published-print: !!timestamp 2006-02-01
+  description: |+
+    Mainly concerned with lumping (PCCA) and setting up
+    an iterative sampling scheme, released as ZIBgridfree.
+
+    Partition of unity using Shepard's method [1968-shepard-method=117].
+    Definition 4.8 says these need to be positive (greater than zero) which rules
+    out traditional MSMs. Why?
+
+    Highlights importants of softness parameter of the
+    shape function, which they call alpha. They say Shepard's
+    method with gaussian RBFs can be seen as a generalized Voronoi
+    Tessellation.
+
+1968-shepard-method:
+  doi: 10.1145/800186.810616
+  description: |+
+    Method for interpolation confusingly cited by [2006-meshless-msm-thesis].
+    I guess he introduces weightedsum(inverse distances) / sum(inverse distances).
+    And instead of inverse distances, you can choose whatever function you want.
+
+
 2017-lktica:
   biorxiv: 10.1101/123752
 
@@ -341,6 +422,9 @@
 2015-ratematrix:
     doi: 10.1063/1.4926516
     tags: [msm-theory]
+
+2000-pcca:
+  doi: 10.1016/S0024-3795(00)00095-1
 
 2005-pcca:
     doi: 10.1016/j.laa.2004.10.026
