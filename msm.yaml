@@ -79,12 +79,12 @@
     And instead of inverse distances, you can choose whatever function you want.
 
 2016-mcgibbon-notes:
-  type: online
+  type: misc
   title: Notes on the Theory of Markov Chains in a Continuous State Space
   author:
     - Robert McGibbon
   published-online: !!timestamp 2016-02-12
-  url: https://rmcgibbo.org/posts/notes-on-the-theory-of-markov-chains-in-a-continuous-state-space/
+  note: https://rmcgibbo.org/posts/notes-on-the-theory-of-markov-chains-in-a-continuous-state-space/
 
 
 2017-lktica:
