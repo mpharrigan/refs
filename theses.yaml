@@ -1,6 +1,7 @@
 2016-mcgibbon-thesis:
   url: http://purl.stanford.edu/sc364qr4692
   title: Statistical models of protein conformational dynamics
+  type: phdthesis
   author:
     - {given: Robert, family: McGibbon}
   published-print: !!timestamp 2016-03-01
@@ -26,6 +27,7 @@
 2015-schwantes-thesis:
   url: http://purl.stanford.edu/ng324mk0023
   title: Automated construction of order parameters for analyzing simulations of protein folding and water dynamics
+  type: phdthesis
   author:
     - {given: Christian, family: Schwantes}
   published-print: !!timestamp 2015-05-01
@@ -44,6 +46,7 @@
 
 2013-beauchamp-thesis:
   title: Inferring protein structure and dynamics from simulation and experiment
+  type: phdthesis
   author:
     - {given: Kyle, family: Beauchamp}
   published-print: !!timestamp 2013-09-01

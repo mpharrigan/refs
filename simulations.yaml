@@ -29,6 +29,7 @@
   tags: [conformational-change]
 
 2014-fs-peptide:
+  type: misc
   author:
     - {given: Robert, family: McGibbon}
   title: Fs MD Trajectories

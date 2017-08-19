@@ -36,6 +36,7 @@
 
 2011-meshless-msm:
   title: Soft Versus Hard Metastable Conformations in Molecular Simulations
+  type: article
   author:
     - Konstantin Fackeldey
     - Susanna Röblitz
@@ -57,6 +58,7 @@
   author:
     - Marcus Weber
   title: Meshless Methods in Conformational Dynamics
+  type: phdthesis
   published-print: !!timestamp 2006-02-01
   description: |+
     Mainly concerned with lumping (PCCA) and setting up
@@ -717,6 +719,7 @@
   doi: 10.1063/1.1738647
 
 2001-nystroem:
+  type: inproceedings
   title: Using the Nyström Method to Speed Up Kernel Machines
   author:
     - Christopher K. I. Williams
@@ -728,6 +731,7 @@
   volume: 13
 
 2012-nystroem:
+  type: inproceedings
   title: "Nyström method vs random fourier features: A theoretical and empirical comparison"
   author:
     - Yang, Tianbao

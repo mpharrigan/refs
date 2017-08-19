@@ -80,6 +80,7 @@
   tags: [software]
 
 2011-sklearn:
+  type: article
   title: "Scikit-learn: Machine Learning in Python"
   author:
     - {family: Pedregosa, given: F.}
@@ -138,10 +139,11 @@
     Pull-request based development model
 
 1989-computer-simulation-of-liquids:
+  type: book
   author:
     - Allen, M. P.
     - Tildesley, D. J.
-  booktitle: Computer Simulation of Liquids
+  title: Computer Simulation of Liquids
   isbn: 978-0198556459
   publisher: Clarendon Press
   address: Oxford
