@@ -1,2 +1,27 @@
 2016-quantum-ml:
   doi: 10.1103/PhysRevLett.117.130501
+
+2016-scalable:
+  doi: 10.1109/ICRC.2016.7738703
+  description: |+
+    Quantum simulation algorithsm [=1] [=2] [=3].
+
+    Quantum machine learning [=4]
+
+    Quantum error correction benchmarks [=5] [=6] [=7].
+
+    Variational quantum eigensolvers [=8] [=9] [=10].
+
+    Correlated material simulations [=11].
+
+    Approximate optimization [=12].
+
+    For the problems of catalysts [=13] and high temperature superconductivity [=9] show promise.
+
+    Cryo operation and superconducting materials means no sissipation preserving quantum
+    coherance.
+
+
+
+1985-macroscopic-quantum-tunneling:
+  doi: 10.1103/PhysRevLett.55.1908
