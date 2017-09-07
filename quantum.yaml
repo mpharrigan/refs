@@ -21,6 +21,45 @@
     Cryo operation and superconducting materials means no sissipation preserving quantum
     coherance.
 
+    Transmon qubits have large coherence time [=14].
+    Fluxonium qubits have wide frequency tunability and strong nonlinearity [=15].
+    This means fluxonium are better for two-qubit gates.
+
+    Quantum limited amplifiers [=16] [=17] [=18]: Josephson parametric amplifier,
+    Josephson bifurcation amplifier, and Josephson parametric converter.
+    Non-linear resonators.
+
+    Can do rotations Rx and Ry on any qubit. Can do SWAP between any transmon and fluxonium.
+    Can do CPhase between any fluxonium and half the transmons. All gates can be made
+    with these primitives [=19].
+
+    Introduce "TQF" estimate of width * depth of quantum circuit you can
+    run. [=1] runs electronic structure for very small molecules.
+
+    Transmon can be "data" for surface code error correction [=24] [=25]
+    and fluxonium as ancillas for parity measurement.
+
+2017-tunable:
+  doi: 10.1103/PhysRevApplied.8.024004
+
+  description: |+
+    Improve fluxonimum [=10] [=11] [=12] [=13] [=14] [=15] with
+    "sweet spots". I think this is just simulations of how it would
+    behave w.r.t noise though.
+
+    Static qubit-qubit couplings with 2q-gates in hundreds of
+    nanoseconds, 100us coherence, and fidelity of 99.1% [=1] [=2] [=3].
+
+    Frequency tinable qubits: 20us coherence, 50ns 2q-gates and
+    99.44% fidelity [=4] [=5]. Fluctuations from flux noise ruin
+    coherence [=6] [=7] [=8]. Also not anharmonic enough means
+    leaks to higher levels [=9].
+
+2017-multi-qubit:
+  arxiv: 1706.06570
+  description: |+
+    Eight qubits in a ring, alternating fixed and tunable.
+    Do 2q gates.
 
 
 1985-macroscopic-quantum-tunneling:
