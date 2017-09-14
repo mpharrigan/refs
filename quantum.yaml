@@ -32,7 +32,17 @@
   description: |+
     Quantum/classical co-processor model described by [=19].
 
-    Quil [2016-quil=47].
+  cites:
+    - num: 18
+      id: 2016-h2-vqe
+      why: '"This paper is a good example of the emerging importance of classical-quantum co-processing"'
+    - num: 19
+      id: 2015-quipper
+      why: '"This paper offers another perspective on quantum programming language design issues."'
+    - num: 47
+      id: 2016-quil
+      why: '"QUIL - A new language with an emphasis on the classical-quantum interface. Open source."'
+
 
 2016-quantum-ml:
   doi: 10.1103/PhysRevLett.117.130501
@@ -96,6 +106,21 @@
   description: |+
     Eight qubits in a ring, alternating fixed and tunable.
     Do 2q gates.
+
+2016-h2-vqe:
+  doi: 10.1103/PhysRevX.6.031007
+  description: |+
+    Solves molecular hydrogen with variational quantum eigensolver
+    (which is hybrid quantum - classical) and compares to
+    trotterization and quantum phase estimation. The VQE
+    is better.
+
+2015-quipper:
+  doi: 10.1145/2699415
+  description: |+
+    Quantum programming language implemented inside
+    Haskell. Invisions quantum co-processor.
+
 
 2016-quil:
   arxiv: "1608.03355"
