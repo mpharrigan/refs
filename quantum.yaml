@@ -56,7 +56,7 @@
     leaks to higher levels [=9].
 
 2017-multi-qubit:
-  arxiv: 1706.06570
+  arxiv: "1706.06570"
   description: |+
     Eight qubits in a ring, alternating fixed and tunable.
     Do 2q gates.
