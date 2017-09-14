@@ -9,10 +9,10 @@
   doi: 10.1038/nature23460
 
   description: |+
-    Superconducting qubits [=3].
+    Superconducting qubits [2013-superconducting-qubit-outlook=3].
 
     Gottesman-Knill theorem says you need T in addition to
-    S, H, and CNOT or you get no quantum [=9] [=10].
+    S, H, and CNOT or you get no quantum [1997-gottesman-thesis=9] [=10].
 
     Trivial codes can't have transversal implementations
     of all gates for universal compuation [=11] [=12].
@@ -20,6 +20,11 @@
     Surface code first as a topological memory [=13]. Logical
     qubit can be two holes in a code sheet [=17] or two pairs
     of latice defects or twists [=18] [=19].
+
+  cites:
+    - id: 2002-surface-code
+      num: 13
+      why: '"Seminal paper on using the surface code as a quantum memory"'
 
 2017-quantum-programming-language:
   doi: 10.1038/nature23459
@@ -95,7 +100,15 @@
 2016-quil:
   arxiv: "1608.03355"
 
+2013-superconducting-qubit-outlook:
+  doi: 10.1126/science.1231930
 
+1997-gottesman-thesis:
+  type: phdthesis
+  arxiv: "quant-ph/9705052"
+
+2002-surface-code:
+  doi: 10.1063/1.1499754
 
 1985-macroscopic-quantum-tunneling:
   doi: 10.1103/PhysRevLett.55.1908
