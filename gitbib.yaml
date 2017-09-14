@@ -9,7 +9,9 @@ outputs:
   - fn: all
     all: True
     description: All entries
-
+  - fn: quantum
+    input-fn: quantum.yaml
+    description: Quantum computing and related
   - fn: msm
     input-fn: msm.yaml
     description: Markov state modeling for understanding molecular dynamics
