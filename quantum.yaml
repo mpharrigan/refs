@@ -1,3 +1,34 @@
+2017-insight:
+  doi: 10.1038/549171a
+  description: |+
+    Nature ran a featurette where everyone mused about quantum computing
+    and how to make it useful. Includes [2017-fault-tolerant-compuation],
+    [2017-quantum-programming-language],
+
+2017-fault-tolerant-computation:
+  doi: 10.1038/nature23460
+
+  description: |+
+    Superconducting qubits [=3].
+
+    Gottesman-Knill theorem says you need T in addition to
+    S, H, and CNOT or you get no quantum [=9] [=10].
+
+    Trivial codes can't have transversal implementations
+    of all gates for universal compuation [=11] [=12].
+
+    Surface code first as a topological memory [=13]. Logical
+    qubit can be two holes in a code sheet [=17] or two pairs
+    of latice defects or twists [=18] [=19].
+
+2017-quantum-programming-language:
+  doi: 10.1038/nature23459
+
+  description: |+
+    Quantum/classical co-processor model described by [=19].
+
+    Quil [2016-quil=47].
+
 2016-quantum-ml:
   doi: 10.1103/PhysRevLett.117.130501
 
@@ -60,6 +91,10 @@
   description: |+
     Eight qubits in a ring, alternating fixed and tunable.
     Do 2q gates.
+
+2016-quil:
+  arxiv: "1608.03355"
+
 
 
 1985-macroscopic-quantum-tunneling:
