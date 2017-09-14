@@ -109,6 +109,17 @@
 
 2002-surface-code:
   doi: 10.1063/1.1499754
+  description: |+
+    Called the seminal work in surface code error correction by
+    [2017-fault-tolerant-computation], this long article
+    seems to evaluate the details of the surface code
+    which were introduced in [1997-kitaev-error-correction=4] and [1997-anyons=5].
+
+1997-anyons:
+  arxiv: "quant-ph/9707021"
+
+1997-kitaev-error-correction:
+  doi: 10.1007/978-1-4615-5923-8_19
 
 1985-macroscopic-quantum-tunneling:
   doi: 10.1103/PhysRevLett.55.1908
